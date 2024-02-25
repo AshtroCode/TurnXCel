@@ -1,0 +1,370 @@
+<ManagedElement xmlns="urn:3gpp:sa5:_3gpp-common-managed-element" xc:operation="merge">
+  <id>262144</id>
+  <GNBCUUPFunction xmlns="urn:3gpp:sa5:_3gpp-nr-nrm-gnbcuupfunction">
+    <id>uhn1hkd818500000</id>
+    <transportConfig xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+      <ipsecRemoteConfig xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+        <id>e1cipsecRemote01</id>
+        <auth xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+          <cert_name>/C=JP/O=Rakuten Mobile/CN=uhn1hkd817500000</cert_name>
+        </auth>
+        <address xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+          <addr-list xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+            <addr>240b:c031:01e1:28c7:0d18:0002:0010:f497</addr>
+          </addr-list>
+        </address>
+      </ipsecRemoteConfig>
+      <ipsecLocalConfig xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+        <id>e1cIpsec01</id>
+        <ipsec-local-info xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+          <common-ike-child-id>ike-block-client-e1c</common-ike-child-id>
+          <ipv6Address>240b:c031:01e1:28c7:0e18:0002:0010:414c</ipv6Address>
+          <remote-ref-id>e1cipsecRemote01</remote-ref-id>
+        </ipsec-local-info>
+      </ipsecLocalConfig>
+      <EP_E1CRemote xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+        <id>0</id>
+        <attributes xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+          <remoteAddress>fd00:ffff:ffff:ffff:2111:310e:0000:f5f3</remoteAddress>
+        </attributes>
+      </EP_E1CRemote>
+      <EP_E1CLocal xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+        <id>0</id>
+        <attributes xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+          <localAddressList xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+            <name>e1cLocal01</name>
+            <ipv6Address>fd00:ffff:ffff:ffff:2111:310e:0000:037e</ipv6Address>
+            <ipsecInfo>e1cIpsec01</ipsecInfo>
+            <is-ipsec-enabled>true</is-ipsec-enabled>
+          </localAddressList>
+        </attributes>
+      </EP_E1CLocal>
+      <commonTransportConfig xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+        <sctpConfigParamsTemplate xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+          <id>SCTPUP1</id>
+          <sctp-configuration>
+            <association-hbt-interval>30</association-hbt-interval>
+            <max-burst>4</max-burst>
+            <association-max-retries>10</association-max-retries>
+            <rto-initial>3000</rto-initial>
+            <rto-max>60000</rto-max>
+            <rto-min>1000</rto-min>
+            <ack-delay>200</ack-delay>
+            <ack-frequency>5</ack-frequency>
+            <cookie-life>60</cookie-life>
+            <path-max-retransmits>5</path-max-retransmits>
+            <max-init-retransmits>8</max-init-retransmits>
+            <maxOstreams>5</maxOstreams>
+            <maxInstreams>5</maxInstreams>
+          </sctp-configuration>
+        </sctpConfigParamsTemplate>
+        <ipsecProfileConfig xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+          <ikechildprofile xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+            <common-ike-child-id>ike-block-client-e1c</common-ike-child-id>
+            <version>IKEv2</version>
+            <mode>TUNNEL</mode>
+            <pfs>false</pfs>
+            <dpdaction>clear</dpdaction>
+            <ike-rekey-time xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+              <time-value>12</time-value>
+              <time-unit>H</time-unit>
+            </ike-rekey-time>
+            <ike-reauth-time xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+              <time-value>0</time-value>
+              <time-unit>H</time-unit>
+            </ike-reauth-time>
+            <ike-proposals xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+              <enc>aes256gcm128</enc>
+              <dg>group-20</dg>
+              <prf>prfsha384</prf>
+            </ike-proposals>
+            <dpdtimeout xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+              <time-value>30</time-value>
+              <time-unit>S</time-unit>
+            </dpdtimeout>
+            <dpddelay xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+              <time-value>30</time-value>
+              <time-unit>S</time-unit>
+            </dpddelay>
+            <child-rekey-time xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+              <time-value>2</time-value>
+              <time-unit>H</time-unit>
+            </child-rekey-time>
+            <child-proposals xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+              <esp-config-proposals xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+                <enc>aes256gcm128</enc>
+                <dg>group-20</dg>
+              </esp-config-proposals>
+            </child-proposals>
+          </ikechildprofile>
+        </ipsecProfileConfig>
+      </commonTransportConfig>
+    </transportConfig>
+    <perfmgr-config xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+      <transport-mode>kafka</transport-mode>
+      <endpoint-url>databus-tt-bootstrap.rmn.local:32100</endpoint-url>
+      <endpoint-topic-name>rm.cdc.obf.altiostar.ngdu.pm</endpoint-topic-name>
+      <pcg-list xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+        <id>8</id>
+        <subcounter-type>Qci5qiPcg</subcounter-type>
+        <SNSSAI-list xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+          <sd>FFFFFF</sd>
+          <sst>255</sst>
+          <fiveqi-list xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+            <fiveqi>9</fiveqi>
+          </fiveqi-list>
+        </SNSSAI-list>
+        <qci-list xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+          <qci>9</qci>
+        </qci-list>
+      </pcg-list>
+      <pcg-list xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+        <id>7</id>
+        <subcounter-type>Qci5qiPcg</subcounter-type>
+        <SNSSAI-list xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+          <sd>FFFFFF</sd>
+          <sst>255</sst>
+          <fiveqi-list xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+            <fiveqi>9</fiveqi>
+          </fiveqi-list>
+        </SNSSAI-list>
+        <qci-list xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+          <qci>9</qci>
+        </qci-list>
+      </pcg-list>
+      <pcg-list xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+        <id>6</id>
+        <subcounter-type>Qci5qiPcg</subcounter-type>
+        <SNSSAI-list xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+          <sd>FFFFFF</sd>
+          <sst>255</sst>
+          <fiveqi-list xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+            <fiveqi>9</fiveqi>
+          </fiveqi-list>
+        </SNSSAI-list>
+        <qci-list xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+          <qci>9</qci>
+        </qci-list>
+      </pcg-list>
+      <pcg-list xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+        <id>5</id>
+        <subcounter-type>Qci5qiPcg</subcounter-type>
+        <SNSSAI-list xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+          <sd>FFFFFF</sd>
+          <sst>255</sst>
+          <fiveqi-list xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+            <fiveqi>9</fiveqi>
+          </fiveqi-list>
+        </SNSSAI-list>
+        <qci-list xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+          <qci>9</qci>
+        </qci-list>
+      </pcg-list>
+      <pcg-list xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+        <id>4</id>
+        <subcounter-type>Qci5qiPcg</subcounter-type>
+        <SNSSAI-list xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+          <sd>FFFFFF</sd>
+          <sst>255</sst>
+          <fiveqi-list xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+            <fiveqi>9</fiveqi>
+          </fiveqi-list>
+        </SNSSAI-list>
+        <qci-list xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+          <qci>9</qci>
+        </qci-list>
+      </pcg-list>
+      <pcg-list xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+        <id>3</id>
+        <subcounter-type>Qci5qiPcg</subcounter-type>
+        <SNSSAI-list xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+          <sd>FFFFFF</sd>
+          <sst>255</sst>
+          <fiveqi-list xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+            <fiveqi>9</fiveqi>
+          </fiveqi-list>
+        </SNSSAI-list>
+        <qci-list xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+          <qci>9</qci>
+        </qci-list>
+      </pcg-list>
+      <pcg-list xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+        <id>2</id>
+        <subcounter-type>Qci5qiPcg</subcounter-type>
+        <SNSSAI-list xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+          <sd>FFFFFF</sd>
+          <sst>255</sst>
+          <fiveqi-list xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+            <fiveqi>9</fiveqi>
+          </fiveqi-list>
+        </SNSSAI-list>
+        <qci-list xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+          <qci>9</qci>
+        </qci-list>
+      </pcg-list>
+      <pcg-list xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+        <id>1</id>
+        <subcounter-type>Qci5qiPcg</subcounter-type>
+        <SNSSAI-list xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+          <sd>FFFFFF</sd>
+          <sst>255</sst>
+          <fiveqi-list xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+            <fiveqi>9</fiveqi>
+          </fiveqi-list>
+        </SNSSAI-list>
+        <qci-list xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+          <qci>9</qci>
+        </qci-list>
+      </pcg-list>
+    </perfmgr-config>
+    <notifmgr-config xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+      <tranport-mode>kafka</tranport-mode>
+      <endpoint-url>databus-tt-bootstrap.rmn.local:32100</endpoint-url>
+      <endpoint-topic-name>rm.cdc.obf.altiostar.ngdu.fm</endpoint-topic-name>
+    </notifmgr-config>
+    <logging-config xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+      <ModuleID>1</ModuleID>
+      <Log_level>LOG_DEBUG</Log_level>
+      <log_types>LOG_CP</log_types>
+      <log_types>LOG_DP</log_types>
+      <log_types>LOG_CONSOLE</log_types>
+      <log_types>LOG_CUSTOMER</log_types>
+    </logging-config>
+    <certconfig xmlns="urn:altiostar:_altiostar-nr-nrm-gnbcuupfunction">
+      <cert-renew-threshold>60</cert-renew-threshold>
+    </certconfig>
+    <attributes xmlns="urn:3gpp:sa5:_3gpp-nr-nrm-gnbcuupfunction">
+      <gNBCUUPId>7001</gNBCUUPId>
+      <gNBId>262144</gNBId>
+      <gNBIdLength>24</gNBIdLength>
+      <rRMPolicyMemberList xmlns="urn:3gpp:sa5:_3gpp-nr-nrm-gnbcuupfunction">
+        <mcc>440</mcc>
+        <mnc>11</mnc>
+        <sd>FFFFFF</sd>
+        <sst>255</sst>
+      </rRMPolicyMemberList>
+      <pLMNInfoList xmlns="urn:3gpp:sa5:_3gpp-nr-nrm-gnbcuupfunction">
+        <mcc>440</mcc>
+        <mnc>11</mnc>
+        <sd>FFFFFF</sd>
+        <sst>255</sst>
+      </pLMNInfoList>
+      <rRMPolicyMemberList xmlns="urn:3gpp:sa5:_3gpp-nr-nrm-gnbcuupfunction">
+        <mcc>440</mcc>
+        <mnc>11</mnc>
+        <sd>FFFFFF</sd>
+        <sst>255</sst>
+      </rRMPolicyMemberList>
+      <pLMNInfoList xmlns="urn:3gpp:sa5:_3gpp-nr-nrm-gnbcuupfunction">
+        <mcc>440</mcc>
+        <mnc>11</mnc>
+        <sd>FFFFFF</sd>
+        <sst>255</sst>
+      </pLMNInfoList>
+      <rRMPolicyMemberList xmlns="urn:3gpp:sa5:_3gpp-nr-nrm-gnbcuupfunction">
+        <mcc>440</mcc>
+        <mnc>11</mnc>
+        <sd>FFFFFF</sd>
+        <sst>255</sst>
+      </rRMPolicyMemberList>
+      <pLMNInfoList xmlns="urn:3gpp:sa5:_3gpp-nr-nrm-gnbcuupfunction">
+        <mcc>440</mcc>
+        <mnc>11</mnc>
+        <sd>FFFFFF</sd>
+        <sst>255</sst>
+      </pLMNInfoList>
+      <rRMPolicyMemberList xmlns="urn:3gpp:sa5:_3gpp-nr-nrm-gnbcuupfunction">
+        <mcc>440</mcc>
+        <mnc>11</mnc>
+        <sd>FFFFFF</sd>
+        <sst>255</sst>
+      </rRMPolicyMemberList>
+      <pLMNInfoList xmlns="urn:3gpp:sa5:_3gpp-nr-nrm-gnbcuupfunction">
+        <mcc>440</mcc>
+        <mnc>11</mnc>
+        <sd>FFFFFF</sd>
+        <sst>255</sst>
+      </pLMNInfoList>
+      <rRMPolicyMemberList xmlns="urn:3gpp:sa5:_3gpp-nr-nrm-gnbcuupfunction">
+        <mcc>440</mcc>
+        <mnc>11</mnc>
+        <sd>FFFFFF</sd>
+        <sst>255</sst>
+      </rRMPolicyMemberList>
+      <pLMNInfoList xmlns="urn:3gpp:sa5:_3gpp-nr-nrm-gnbcuupfunction">
+        <mcc>440</mcc>
+        <mnc>11</mnc>
+        <sd>FFFFFF</sd>
+        <sst>255</sst>
+      </pLMNInfoList>
+      <rRMPolicyMemberList xmlns="urn:3gpp:sa5:_3gpp-nr-nrm-gnbcuupfunction">
+        <mcc>440</mcc>
+        <mnc>11</mnc>
+        <sd>FFFFFF</sd>
+        <sst>255</sst>
+      </rRMPolicyMemberList>
+      <pLMNInfoList xmlns="urn:3gpp:sa5:_3gpp-nr-nrm-gnbcuupfunction">
+        <mcc>440</mcc>
+        <mnc>11</mnc>
+        <sd>FFFFFF</sd>
+        <sst>255</sst>
+      </pLMNInfoList>
+      <rRMPolicyMemberList xmlns="urn:3gpp:sa5:_3gpp-nr-nrm-gnbcuupfunction">
+        <mcc>440</mcc>
+        <mnc>11</mnc>
+        <sd>FFFFFF</sd>
+        <sst>255</sst>
+      </rRMPolicyMemberList>
+      <pLMNInfoList xmlns="urn:3gpp:sa5:_3gpp-nr-nrm-gnbcuupfunction">
+        <mcc>440</mcc>
+        <mnc>11</mnc>
+        <sd>FFFFFF</sd>
+        <sst>255</sst>
+      </pLMNInfoList>
+      <rRMPolicyMemberList xmlns="urn:3gpp:sa5:_3gpp-nr-nrm-gnbcuupfunction">
+        <mcc>440</mcc>
+        <mnc>11</mnc>
+        <sd>FFFFFF</sd>
+        <sst>255</sst>
+      </rRMPolicyMemberList>
+      <pLMNInfoList xmlns="urn:3gpp:sa5:_3gpp-nr-nrm-gnbcuupfunction">
+        <mcc>440</mcc>
+        <mnc>11</mnc>
+        <sd>FFFFFF</sd>
+        <sst>255</sst>
+      </pLMNInfoList>
+    </attributes>
+  </GNBCUUPFunction>
+</ManagedElement>
+<interfaces xmlns="urn:ietf:params:xml:ns:yang:ietf-interfaces">
+  <interface xmlns="urn:ietf:params:xml:ns:yang:ietf-interfaces">
+    <name>e1cLocal01</name>
+    <type>ianaift:ip</type>
+    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <mtu>1500</mtu>
+      <neighbor xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+        <ip>240b:c031:01e1:28c6:0e18:0002:0010:4062</ip>
+        <link-layer-address>FF:FF:FF:FF:FF:FF</link-layer-address>
+      </neighbor>
+      <address xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+        <ip>fd00:ffff:ffff:ffff:2111:310e:0000:037e</ip>
+        <prefix-length>128</prefix-length>
+      </address>
+    </ipv6>
+  </interface>
+  <interface xmlns="urn:ietf:params:xml:ns:yang:ietf-interfaces">
+    <name>e1cIpsec01</name>
+    <type>ianaift:ip</type>
+    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <mtu>1500</mtu>
+      <neighbor xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+        <ip>240b:c031:01e1:28c6:0e18:0002:0010:4062</ip>
+        <link-layer-address>FF:FF:FF:FF:FF:FF</link-layer-address>
+      </neighbor>
+      <address xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+        <ip>240b:c031:01e1:28c7:0e18:0002:0010:414c</ip>
+        <prefix-length>128</prefix-length>
+      </address>
+    </ipv6>
+  </interface>
+</interfaces>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bulkCmConfigDataFile xmlns="http://www.3gpp.org/ftp/specs/archive/32_series/32.616/V3_5_4g_133#configData" xmlns:duME="http://www.3gpp.org/ftp/specs/archive/32_series/V3_5_4g_133#DU" xmlns:ioc="http://www.3gpp.org/ftp/specs/archive/32_series/V3_5_4g_133#ioc" xmlns:ns2="http://www.3gpp.org/ftp/specs/archive/32_series/32.626#genericNrm" xmlns:ns3="http://www.3gpp.org/ftp/specs/archive/32_series/32.766/V3_5_4g_133#eutranNrm" xmlns:ns9="http://www.3gpp.org/ftp/specs/archive/32_series/32.696#inventoryNrm" xmlns:radioME="http://www.3gpp.org/ftp/specs/archive/32_series/V3_5_4g_133#Radio" xmlns:riuME="http://www.3gpp.org/ftp/specs/archive/32_series/V3_5_4g_133#RIU" xmlns:riudME="http://www.3gpp.org/ftp/specs/archive/32_series/V3_5_4g_133#RIUD" xmlns:smallCelliRRHME="http://www.3gpp.org/ftp/specs/archive/32_series/V3_5_4g_133#smallCelliRRH">
+   <fileHeader fileFormatVersion="32.616 V10.2" senderName="DC=altiostar.com,SubNetwork=ANIEMS,ManagementNode=UHN4ttALEM000040,IRPAgent=ANIIRPAgent" vendorName="Altiostar Networks Inc."/>
+   <fileFooter dateTime="2023-12-08T05:49:55.410Z"/>
+   <configData dnPrefix="Altiostar.com">
+      <ns2:SubNetwork id="ANIEMS">
+         <ns2:ManagedElement id="UHN1STM100400082">
+            <ns2:attributes>
+               <ns2:dnPrefix>SubNetwork=ANIEMS</ns2:dnPrefix>
+               <ns2:managedElementType>ENodeB</ns2:managedElementType>
+               <ns2:userLabel/>
+               <ns2:vendorName>Altiostar Networks Inc.</ns2:vendorName>
+               <ns2:userDefinedState/>
+               <ns2:locationName/>
+               <ns2:swVersion>V3.5.4g.116-Build 121</ns2:swVersion>
+               <ns2:managedBy>
+                  <ns2:dn>SubNetwork=ANIEMS, ManagementNode=UHN4ttALEM000040</ns2:dn>
+               </ns2:managedBy>
+               <ns2:proceduralStatus>Commissioned</ns2:proceduralStatus>
+               <ns2:operationalState>enabledMC</ns2:operationalState>
+               <ns2:unknownState>false</ns2:unknownState>
+            </ns2:attributes>
+            <ns3:ENBFunction id="UHN1STM100400082">
+               <ns3:attributes>
+                  <ns3:enbId>279784</ns3:enbId>
+               </ns3:attributes>
+               <ioc:ENodeB id="UHN1STM100400082">
+                  <ioc:attributes>
+                     <ioc:mgmtFqdn>UHN1STM100400082.rmn.local</ioc:mgmtFqdn>
+                     <ioc:enbId>279784</ioc:enbId>
+                     <ioc:location>
+                        <ioc:siteName>UHN1STM100400082</ioc:siteName>
+                        <ioc:lat>35.951683</ioc:lat>
+                        <ioc:long>139.56501</ioc:long>
+                     </ioc:location>
+                     <ioc:descr>344147 - 06 Dec 2023 15:39:19:729 - V3.5.4g.133-Build 59</ioc:descr>
+                     <ioc:plmnId>44011</ioc:plmnId>
+                     <ioc:nbBhSupport>disabledMC</ioc:nbBhSupport>
+                     <ioc:s1uLinkMonitoring>disabledMC</ioc:s1uLinkMonitoring>
+                     <ioc:stat>
+                        <ioc:statAdminState>enabledMC</ioc:statAdminState>
+                        <ioc:statPollInterval>15</ioc:statPollInterval>
+                     </ioc:stat>
+                     <ioc:raKDDIRoamingAggrEnd>enabledMC</ioc:raKDDIRoamingAggrEnd>
+                  </ioc:attributes>
+               </ioc:ENodeB>
+			   <ioc:NBIOTBaseband id="UHN1STM100400082">
+                  <ioc:attributes>
+                     <ioc:pagingThreshold>100</ioc:pagingThreshold>
+                     <ioc:s1apHoThreshold>30</ioc:s1apHoThreshold>
+                     <ioc:x2apHoThreshold>10</ioc:x2apHoThreshold>
+                     <ioc:rrcConxnThreshold>100</ioc:rrcConxnThreshold>
+                     <ioc:totalThreshold>100</ioc:totalThreshold>
+                  </ioc:attributes>
+               </ioc:NBIOTBaseband>
+               <ns3:EUtranCellFDD id="Sec9">
+                  <ns3:attributes>
+                     <ns3:tac>311</ns3:tac>
+                     <ns3:cellLocalId>9</ns3:cellLocalId>
+                     <ns3:pci>269</ns3:pci>
+                     <ns3:earfcnDl>1500</ns3:earfcnDl>
+                     <ns3:earfcnUl>19500</ns3:earfcnUl>
+                     <ns3:maximumTransmissionPower>23</ns3:maximumTransmissionPower>
+                     <ns3:administrativeState>unlocked</ns3:administrativeState>
+                     <ns3:operationalState>enabledMC</ns3:operationalState>
+                     <ns3:unknownState>false</ns3:unknownState>
+                  </ns3:attributes>
+                  <ioc:EUtranCell id="Sec9">
+                     <ioc:attributes>
+                        <ioc:cuCellId>9</ioc:cuCellId>
+                        <ioc:lteServiceEnabled>enabledMC</ioc:lteServiceEnabled>
+                        <ioc:nbiotServiceEnabled>enabledMC</ioc:nbiotServiceEnabled>
+                     </ioc:attributes>
+                  </ioc:EUtranCell>
+                  <ioc:LTEService id="Sec9">
+                     <ioc:CellParameters id="Sec9">
+                        <ioc:attributes>
+                           <ioc:maxActiveUsers>500</ioc:maxActiveUsers>
+                           <ioc:maxDataBearers>2000</ioc:maxDataBearers>
+                           <ioc:maxDataBearersPerUser>8</ioc:maxDataBearersPerUser>
+                           <ioc:maxVolteUsers>300</ioc:maxVolteUsers>
+                           <ioc:maxVilteBearer>20</ioc:maxVilteBearer>
+                           <ioc:emerCallReserve>10</ioc:emerCallReserve>
+                           <ioc:preemptForEmer>enabledMC</ioc:preemptForEmer>
+                           <ioc:dlCyclicPrefix>normal</ioc:dlCyclicPrefix>
+                        </ioc:attributes>
+                     </ioc:CellParameters>
+                     <ioc:SON id="Sec9">
+                        <ioc:attributes>
+                           <ioc:autonomousGaps>disabledMC</ioc:autonomousGaps>
+                        </ioc:attributes>
+                     </ioc:SON>
+                  </ioc:LTEService>
+               </ns3:EUtranCellFDD>
+            </ns3:ENBFunction>
+         </ns2:ManagedElement>
+      </ns2:SubNetwork>
+   </configData>
+</bulkCmConfigDataFile>

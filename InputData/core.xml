@@ -1,0 +1,1827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE raml SYSTEM 'raml20.dtd'>
+<raml version="2.0" xmlns="raml20.xsd">
+  <cmData type="actual">
+    <header>
+      <log dateTime="2023-10-14T01:10:00.000+09:00" action="created" appInfo="ActualExporter">InternalValues are used</log>
+    </header>
+    <managedObject class="DU" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01" id="107105">
+      <p name="commonDUName">UHN3SNI2CFX1_DU_Common_19.01</p>
+      <p name="lastSuccessfulUploadTimeStamp">13/10/23 21:30:09</p>
+    </managedObject>
+    <managedObject class="AOM" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1" id="8153258"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-01" id="107420"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-02" id="107422"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-03" id="107421"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-04" id="107471"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-05" id="107470"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-06" id="107473"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-07" id="107472"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-08" id="107468"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-09" id="107467"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-10" id="107487"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-11" id="107482"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-12" id="107481"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-13" id="107484"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-14" id="107483"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-15" id="107445"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-16" id="107444"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-17" id="107447"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-18" id="107446"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-19" id="107441"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-20" id="107466"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-21" id="107465"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-22" id="8153256"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-23" id="107458"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-24" id="107463"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-25" id="107461"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-26" id="107504"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-CIF-01" id="107314"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-CIF-02" id="107316"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-L2TD-01" id="107293"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-L2TD-02" id="107292"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-01" id="107302"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-02" id="107304"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-03" id="107317"/>
+    <managedObject class="CSCF" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-04" id="107318"/>
+    <managedObject class="CSCFCOMMON" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1" id="8153257"/>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-AGGREGAT" id="8153411">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">AGGREGAT</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-ANT" id="8153402">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">ANT</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-AS" id="8153406">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">AS</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-ASC" id="8153393">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">ASC</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-ASP" id="8153390">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">ASP</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-AT" id="8153405">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">AT</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-BC" id="8153398">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">BC</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-BGCF" id="8153378">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">BGCF</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-CFRAME" id="8153407">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">CFRAME</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-CPU" id="8153422">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">CPU</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-CT" id="8153425">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">CT</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-CX" id="8153423">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">CX</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-DBSpace" id="8153412">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">DBSpace</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-DIA" id="8153389">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">DIA</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-DIAMETERDISP" id="8153387">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">DIAMETERDISP</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-DISK" id="8153400">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">DISK</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-DNSPH" id="8153415">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">DNSPH</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-EATF" id="8153395">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">EATF</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-EMP" id="8153416">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">EMP</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-EMS" id="8153413">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">EMS</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-FEE" id="8153386">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">FEE</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-FS" id="8153384">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">FS</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-HTTPCL" id="8153377">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">HTTPCL</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-HTTPSV" id="8153381">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">HTTPSV</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-IBCF" id="8153414">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">IBCF</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-ICSCF" id="8153424">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">ICSCF</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-IDM" id="8153420">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">IDM</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-IMSLB" id="8153380">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">IMSLB</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-MCF" id="8153382">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">MCF</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-MoU" id="8153391">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">MoU</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-NETWORK" id="8153385">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">NETWORK</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-NHC" id="8153397">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">NHC</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-NM" id="8153399">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">NM</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-OVLCT" id="8153408">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">OVLCT</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-PCSCF" id="8153421">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">PCSCF</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-PN" id="8153419">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">PN</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-QoS" id="8153396">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">QoS</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-RF" id="8153404">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">RF</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-RLM" id="8153392">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">RLM</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-RO" id="8153394">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">RO</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-RTTA" id="8153410">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">RTTA</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-SCSCF" id="8153409">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">SCSCF</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-SDM" id="8153418">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">SDM</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-SH" id="8153388">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">SH</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-ST" id="8153383">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">ST</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-STIAS" id="8153401">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">STIAS</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-STIVS" id="8153403">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">STIVS</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-VCPU" id="8153379">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">VCPU</p>
+    </managedObject>
+    <managedObject class="MSGRNPERIOD" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/AOM-1/MSGRNPERIOD-VSC" id="8153417">
+      <p name="granularityPrd">15</p>
+      <p name="measurementType">VSC</p>
+    </managedObject>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-01/PLATFORMN-1" id="8153275"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-01/FEE-1" id="108763"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-01/COMMON-1" id="108759"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-01/SRV-1" id="8153276"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-01/CSCFB-1" id="8153274"/>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-02/PLATFORMN-1" id="8153297"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-02/FEE-1" id="108769"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-02/COMMON-1" id="108772"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-02/SRV-1" id="8153299"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-02/CSCFB-1" id="8153298"/>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-03/PLATFORMN-1" id="8153291"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-03/FEE-1" id="108765"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-03/COMMON-1" id="108768"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-03/SRV-1" id="8153292"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-03/CSCFB-1" id="8153293"/>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-04/PLATFORMN-1" id="8153318"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-04/FEE-1" id="109037"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-04/COMMON-1" id="109035"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-04/SRV-1" id="8153320"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-04/CSCFB-1" id="8153319"/>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-05/PLATFORMN-1" id="8153316"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-05/FEE-1" id="109029"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-05/COMMON-1" id="109033"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-05/SRV-1" id="8153315"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-05/CSCFB-1" id="8153317"/>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-06/PLATFORMN-1" id="8153329"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-06/FEE-1" id="109048"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-06/COMMON-1" id="109047"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-06/SRV-1" id="8153328"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-06/CSCFB-1" id="8153327"/>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-07/PLATFORMN-1" id="8153324"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-07/FEE-1" id="109040"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-07/COMMON-1" id="109039"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-07/SRV-1" id="8153325"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-07/CSCFB-1" id="8153326"/>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-08/PLATFORMN-1" id="8153313"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-08/FEE-1" id="109005"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-08/COMMON-1" id="109007"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-08/SRV-1" id="8153314"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-08/CSCFB-1" id="8153312"/>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-09/PLATFORMN-1" id="8153310"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-09/FEE-1" id="109002"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-09/COMMON-1" id="109001"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-09/SRV-1" id="8153309"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-09/CSCFB-1" id="8153311"/>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-10/PLATFORMN-1" id="8153427"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-10/FEE-1" id="109128"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-10/COMMON-1" id="109132"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-10/SRV-1" id="8153428"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-10/CSCFB-1" id="8153426"/>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-11/PLATFORMN-1" id="8153368"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-11/FEE-1" id="109103"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-11/COMMON-1" id="109104"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-11/SRV-1" id="8153369"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-11/CSCFB-1" id="8153370"/>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-12/PLATFORMN-1" id="8153365"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-12/FEE-1" id="109098"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-12/COMMON-1" id="109100"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-12/SRV-1" id="8153366"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-12/CSCFB-1" id="8153367"/>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-13/PLATFORMN-1" id="8153376"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-13/FEE-1" id="109117"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-13/COMMON-1" id="109116"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-13/SRV-1" id="8153375"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-13/CSCFB-1" id="8153374"/>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-14/PLATFORMN-1" id="8153371"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-14/FEE-1" id="109111"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-14/COMMON-1" id="109110"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-14/SRV-1" id="8153373"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-14/CSCFB-1" id="8153372"/>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-15/PLATFORMN-1" id="8153265"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-15/FEE-1" id="108908"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-15/COMMON-1" id="108907"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-15/SRV-1" id="8153266"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-15/CSCFB-1" id="8153267"/>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-16/PLATFORMN-1" id="8153263"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-16/FEE-1" id="108905"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-16/COMMON-1" id="108903"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-16/SRV-1" id="8153264"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-16/CSCFB-1" id="8153262"/>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-17/PLATFORMN-1" id="8153272"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-17/FEE-1" id="108918"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-17/COMMON-1" id="108916"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-17/SRV-1" id="8153273"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-17/CSCFB-1" id="8153271"/>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-18/PLATFORMN-1" id="8153269"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-18/FEE-1" id="108911"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-18/COMMON-1" id="108913"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-18/SRV-1" id="8153268"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-18/CSCFB-1" id="8153270"/>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-19/PLATFORMN-1" id="8153261"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-19/FEE-1" id="108888"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-19/COMMON-1" id="108890"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-19/SRV-1" id="8153259"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-19/CSCFB-1" id="8153260"/>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-20/PLATFORMN-1" id="8153307"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-20/FEE-1" id="108997"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-20/COMMON-1" id="108996"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-20/SRV-1" id="8153308"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-20/CSCFB-1" id="8153306"/>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-21/PLATFORMN-1" id="8153304"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-21/FEE-1" id="108990"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-21/COMMON-1" id="108993"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-21/SRV-1" id="8153303"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-21/CSCFB-1" id="8153305"/>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-22/PLATFORMN-1" id="8153286"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-22/FEE-1" id="8153287"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-22/COMMON-1" id="8153284"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-22/SRV-1" id="8153283"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-22/CSCFB-1" id="8153285"/>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-23/PLATFORMN-1" id="8153277"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-23/FEE-1" id="108958"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-23/COMMON-1" id="108959"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-23/SRV-1" id="8153278"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-23/CSCFB-1" id="8153279"/>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-24/PLATFORMN-1" id="8153300"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-24/FEE-1" id="108980"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-24/COMMON-1" id="108983"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-24/SRV-1" id="8153302"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-24/CSCFB-1" id="8153301"/>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-25/PLATFORMN-1" id="8153294"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-25/FEE-1" id="108975"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-25/COMMON-1" id="108977"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-25/SRV-1" id="8153295"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-25/CSCFB-1" id="8153296"/>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-26/PLATFORMN-1" id="8153321"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-26/FEE-1" id="109213"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-26/COMMON-1" id="109210"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-26/SRV-1" id="8153323"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-26/CSCFB-1" id="8153322"/>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-CIF-01/PLATFORMN-1" id="8153354"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-CIF-01/FEE-1" id="107838"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-CIF-01/COMMON-1" id="107840"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-CIF-01/SRV-1" id="8153355"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-CIF-01/CSCFB-1" id="8153353"/>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-CIF-02/PLATFORMN-1" id="8153357"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-CIF-02/FEE-1" id="107848"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-CIF-02/COMMON-1" id="107851"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-CIF-02/SRV-1" id="8153358"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-CIF-02/CSCFB-1" id="8153356"/>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-L2TD-01/PLATFORMN-1" id="8153289"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-L2TD-01/FEE-1" id="107588"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-L2TD-01/COMMON-1" id="107585"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-L2TD-01/SRV-1" id="8153290"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-L2TD-01/CSCFB-1" id="8153288"/>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-L2TD-02/PLATFORMN-1" id="8153281"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-L2TD-02/FEE-1" id="107583"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-L2TD-02/COMMON-1" id="107584"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-L2TD-02/SRV-1" id="8153280"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-L2TD-02/CSCFB-1" id="8153282"/>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-01/PLATFORMN-1" id="8153347"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-01/FEE-1" id="107699"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-01/COMMON-1" id="107698"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-01/SRV-1" id="8153349"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-01/CSCFB-1" id="8153348"/>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-02/PLATFORMN-1" id="8153352"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-02/FEE-1" id="107706"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-02/COMMON-1" id="107707"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-02/SRV-1" id="8153350"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-02/CSCFB-1" id="8153351"/>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-03/PLATFORMN-1" id="8153360"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-03/FEE-1" id="107854"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-03/COMMON-1" id="107853"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-03/SRV-1" id="8153359"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-03/CSCFB-1" id="8153361"/>
+    <managedObject class="PLATFORMN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-04/PLATFORMN-1" id="8153363"/>
+    <managedObject class="FEE" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-04/FEE-1" id="107860"/>
+    <managedObject class="COMMON" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-04/COMMON-1" id="107858"/>
+    <managedObject class="SRV" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-04/SRV-1" id="8153364"/>
+    <managedObject class="CSCFB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-04/CSCFB-1" id="8153362"/>
+    <managedObject class="PLATFORM" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/PLATFORM-1" id="8153332"/>
+    <managedObject class="SRV" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SRV-1" id="8153337">
+      <p name="srvLifReRouting">0</p>
+      <p name="srvMediaType">1</p>
+      <p name="srvNetworkOperatorIdentifier">AB</p>
+      <p name="srvRemoveAssociateLocation">0</p>
+      <p name="srvServedUserCheck">0</p>
+      <p name="srvX1PortCE1">7443</p>
+    </managedObject>
+    <managedObject class="COMMON" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/COMMON-1" id="8153339"/>
+    <managedObject class="BGCF" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/BGCF-1" id="8153334"/>
+    <managedObject class="FEE" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1" id="8153346"/>
+    <managedObject class="IBCF" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/IBCF-1" id="8153338"/>
+    <managedObject class="MCF" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/MCF-1" id="8153331"/>
+    <managedObject class="PCSCF" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/PCSCF-1" id="8153336"/>
+    <managedObject class="NM" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/NM-1" id="8153330"/>
+    <managedObject class="BC" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/BC-1" id="8153342"/>
+    <managedObject class="OVLCT" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/OVLCT-1" id="8153343"/>
+    <managedObject class="EATF" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/EATF-1" id="8153333"/>
+    <managedObject class="CSCFB" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/CSCFB-1" id="8153335"/>
+    <managedObject class="ICSCF" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/ICSCF-1" id="8153341"/>
+    <managedObject class="STIAS" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/STIAS-1" id="8153340"/>
+    <managedObject class="STIVS" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/STIVS-1" id="8153345"/>
+    <managedObject class="SCSCF" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1" id="8153344"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-01/PLATFORMN-1/CFRAMEN-1" id="8153452"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-01/COMMON-1/IMSLB-1" id="8153451"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-01/COMMON-1/DNSPH-1" id="110843"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-01/COMMON-1/DIAMETERDISP-1" id="110842"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-02/PLATFORMN-1/CFRAMEN-1" id="8153467"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-02/COMMON-1/IMSLB-1" id="8153468"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-02/COMMON-1/DNSPH-1" id="110852"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-02/COMMON-1/DIAMETERDISP-1" id="110851"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-03/PLATFORMN-1/CFRAMEN-1" id="8153463"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-03/COMMON-1/IMSLB-1" id="8153464"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-03/COMMON-1/DNSPH-1" id="110848"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-03/COMMON-1/DIAMETERDISP-1" id="110849"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-04/PLATFORMN-1/CFRAMEN-1" id="8153481"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-04/COMMON-1/IMSLB-1" id="8153482"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-04/COMMON-1/DNSPH-1" id="111183"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-04/COMMON-1/DIAMETERDISP-1" id="111184"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-05/PLATFORMN-1/CFRAMEN-1" id="8153479"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-05/COMMON-1/IMSLB-1" id="8153480"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-05/COMMON-1/DNSPH-1" id="111178"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-05/COMMON-1/DIAMETERDISP-1" id="111180"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-06/PLATFORMN-1/CFRAMEN-1" id="8153487"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-06/COMMON-1/IMSLB-1" id="8153488"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-06/COMMON-1/DNSPH-1" id="111190"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-06/COMMON-1/DIAMETERDISP-1" id="111192"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-07/PLATFORMN-1/CFRAMEN-1" id="8153486"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-07/COMMON-1/IMSLB-1" id="8153485"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-07/COMMON-1/DNSPH-1" id="111186"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-07/COMMON-1/DIAMETERDISP-1" id="111187"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-08/PLATFORMN-1/CFRAMEN-1" id="8153478"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-08/COMMON-1/IMSLB-1" id="8153477"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-08/COMMON-1/DNSPH-1" id="111130"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-08/COMMON-1/DIAMETERDISP-1" id="111128"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-09/PLATFORMN-1/CFRAMEN-1" id="8153476"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-09/COMMON-1/IMSLB-1" id="8153475"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-09/COMMON-1/DNSPH-1" id="111124"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-09/COMMON-1/DIAMETERDISP-1" id="111125"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-10/PLATFORMN-1/CFRAMEN-1" id="8153599"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-10/COMMON-1/IMSLB-1" id="8153600"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-10/COMMON-1/DNSPH-1" id="111384"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-10/COMMON-1/DIAMETERDISP-1" id="111383"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-11/PLATFORMN-1/CFRAMEN-1" id="8153594"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-11/COMMON-1/IMSLB-1" id="8153593"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-11/COMMON-1/DNSPH-1" id="111339"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-11/COMMON-1/DIAMETERDISP-1" id="111337"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-12/PLATFORMN-1/CFRAMEN-1" id="8153591"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-12/COMMON-1/IMSLB-1" id="8153592"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-12/COMMON-1/DNSPH-1" id="111336"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-12/COMMON-1/DIAMETERDISP-1" id="111334"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-13/PLATFORMN-1/CFRAMEN-1" id="8153597"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-13/COMMON-1/IMSLB-1" id="8153598"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-13/COMMON-1/DNSPH-1" id="111348"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-13/COMMON-1/DIAMETERDISP-1" id="111346"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-14/PLATFORMN-1/CFRAMEN-1" id="8153595"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-14/COMMON-1/IMSLB-1" id="8153596"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-14/COMMON-1/DNSPH-1" id="111343"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-14/COMMON-1/DIAMETERDISP-1" id="111342"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-15/PLATFORMN-1/CFRAMEN-1" id="8153445"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-15/COMMON-1/IMSLB-1" id="8153446"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-15/COMMON-1/DNSPH-1" id="110983"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-15/COMMON-1/DIAMETERDISP-1" id="110982"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-16/PLATFORMN-1/CFRAMEN-1" id="8153443"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-16/COMMON-1/IMSLB-1" id="8153444"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-16/COMMON-1/DNSPH-1" id="110979"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-16/COMMON-1/DIAMETERDISP-1" id="110978"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-17/PLATFORMN-1/CFRAMEN-1" id="8153450"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-17/COMMON-1/IMSLB-1" id="8153449"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-17/COMMON-1/DNSPH-1" id="110989"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-17/COMMON-1/DIAMETERDISP-1" id="110990"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-18/PLATFORMN-1/CFRAMEN-1" id="8153448"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-18/COMMON-1/IMSLB-1" id="8153447"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-18/COMMON-1/DNSPH-1" id="110986"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-18/COMMON-1/DIAMETERDISP-1" id="110985"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-19/PLATFORMN-1/CFRAMEN-1" id="8153441"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-19/COMMON-1/IMSLB-1" id="8153442"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-19/COMMON-1/DNSPH-1" id="110942"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-19/COMMON-1/DIAMETERDISP-1" id="110944"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-20/PLATFORMN-1/CFRAMEN-1" id="8153474"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-20/COMMON-1/IMSLB-1" id="8153473"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-20/COMMON-1/DNSPH-1" id="111121"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-20/COMMON-1/DIAMETERDISP-1" id="111120"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-21/PLATFORMN-1/CFRAMEN-1" id="8153471"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-21/COMMON-1/IMSLB-1" id="8153472"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-21/COMMON-1/DNSPH-1" id="111119"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-21/COMMON-1/DIAMETERDISP-1" id="111117"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-22/PLATFORMN-1/CFRAMEN-1" id="8153460"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-22/COMMON-1/IMSLB-1" id="8153457"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-22/COMMON-1/DNSPH-1" id="8153458"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-22/COMMON-1/DIAMETERDISP-1" id="8153459"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-23/PLATFORMN-1/CFRAMEN-1" id="8153453"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-23/COMMON-1/IMSLB-1" id="8153454"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-23/COMMON-1/DNSPH-1" id="111064"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-23/COMMON-1/DIAMETERDISP-1" id="111066"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-24/PLATFORMN-1/CFRAMEN-1" id="8153469"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-24/COMMON-1/IMSLB-1" id="8153470"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-24/COMMON-1/DNSPH-1" id="111109"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-24/COMMON-1/DIAMETERDISP-1" id="111111"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-25/PLATFORMN-1/CFRAMEN-1" id="8153465"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-25/COMMON-1/IMSLB-1" id="8153466"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-25/COMMON-1/DNSPH-1" id="111103"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-25/COMMON-1/DIAMETERDISP-1" id="111104"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-26/PLATFORMN-1/CFRAMEN-1" id="8153483"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-26/COMMON-1/IMSLB-1" id="8153484"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-26/COMMON-1/DNSPH-1" id="111508"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-26/COMMON-1/DIAMETERDISP-1" id="111506"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-CIF-01/PLATFORMN-1/CFRAMEN-1" id="8153583"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-CIF-01/COMMON-1/IMSLB-1" id="8153584"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-CIF-01/COMMON-1/DNSPH-1" id="109446"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-CIF-01/COMMON-1/DIAMETERDISP-1" id="109444"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-CIF-02/PLATFORMN-1/CFRAMEN-1" id="8153585"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-CIF-02/COMMON-1/IMSLB-1" id="8153586"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-CIF-02/COMMON-1/DNSPH-1" id="109452"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-CIF-02/COMMON-1/DIAMETERDISP-1" id="109453"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-L2TD-01/PLATFORMN-1/CFRAMEN-1" id="8153462"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-L2TD-01/COMMON-1/IMSLB-1" id="8153461"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-L2TD-01/COMMON-1/DNSPH-1" id="109372"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-L2TD-01/COMMON-1/DIAMETERDISP-1" id="109370"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-L2TD-02/PLATFORMN-1/CFRAMEN-1" id="8153455"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-L2TD-02/COMMON-1/IMSLB-1" id="8153456"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-L2TD-02/COMMON-1/DNSPH-1" id="109369"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-L2TD-02/COMMON-1/DIAMETERDISP-1" id="109368"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-01/PLATFORMN-1/CFRAMEN-1" id="8153579"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-01/COMMON-1/IMSLB-1" id="8153580"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-01/COMMON-1/DNSPH-1" id="109400"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-01/COMMON-1/DIAMETERDISP-1" id="109401"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-02/PLATFORMN-1/CFRAMEN-1" id="8153582"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-02/COMMON-1/IMSLB-1" id="8153581"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-02/COMMON-1/DNSPH-1" id="109409"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-02/COMMON-1/DIAMETERDISP-1" id="109408"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-03/PLATFORMN-1/CFRAMEN-1" id="8153588"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-03/COMMON-1/IMSLB-1" id="8153587"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-03/COMMON-1/DNSPH-1" id="109457"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-03/COMMON-1/DIAMETERDISP-1" id="109456"/>
+    <managedObject class="CFRAMEN" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-04/PLATFORMN-1/CFRAMEN-1" id="8153590"/>
+    <managedObject class="IMSLB" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-04/COMMON-1/IMSLB-1" id="8153589"/>
+    <managedObject class="DNSPH" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-04/COMMON-1/DNSPH-1" id="109461"/>
+    <managedObject class="DIAMETERDISP" version="19.01VNF" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCF-TD-CORE-04/COMMON-1/DIAMETERDISP-1" id="109460"/>
+    <managedObject class="OAM" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/PLATFORM-1/OAM-1" id="8153492"/>
+    <managedObject class="TSP" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/PLATFORM-1/TSP-1" id="8153493"/>
+    <managedObject class="LDAP" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/PLATFORM-1/LDAP-1" id="8153497"/>
+    <managedObject class="HTTPSV" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/PLATFORM-1/HTTPSV-1" id="8153491"/>
+    <managedObject class="HTTPCL" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/PLATFORM-1/HTTPCL-1" id="8153495"/>
+    <managedObject class="RTPCONFIG" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/PLATFORM-1/RTPCONFIG-1" id="8153496"/>
+    <managedObject class="CFRAME" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/PLATFORM-1/CFRAME-1" id="8153494"/>
+    <managedObject class="STM" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/COMMON-1/STM-1" id="8153520"/>
+    <managedObject class="FTPP" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/COMMON-1/FTPP-1" id="8153516"/>
+    <managedObject class="LLB" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/COMMON-1/LLB-1" id="8153517"/>
+    <managedObject class="DIAMETERDISP" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/COMMON-1/DIAMETERDISP-1" id="8153513"/>
+    <managedObject class="RTTA" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/COMMON-1/RTTA-1" id="8153519"/>
+    <managedObject class="IMSLB" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/COMMON-1/IMSLB-1" id="8153518"/>
+    <managedObject class="DNSPH" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/COMMON-1/DNSPH-1" id="8153515"/>
+    <managedObject class="DIA" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/COMMON-1/DIA-1" id="8153512"/>
+    <managedObject class="STRC" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/COMMON-1/STRC-1" id="8153514">
+      <p name="subscriberTracing">0</p>
+      <p name="subscriberTracingEnabled">0</p>
+      <p name="traceMode">1</p>
+    </managedObject>
+    <managedObject class="BGSYSTEM" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/BGCF-1/BGSYSTEM-1" id="8153501">
+      <p name="errTrnxLoggingThershold">2000</p>
+      <p name="errTrnxLoggingWindow">3</p>
+      <p name="errTrnxProvMgsLogging">DISABLE</p>
+      <p name="opStateBgcf">0</p>
+      <p name="updateRouteWithDnsTarget">0</p>
+    </managedObject>
+    <managedObject class="BGCHARGING" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/BGCF-1/BGCHARGING-1" id="8153500"/>
+    <managedObject class="SECURE" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SECURE-1" id="8153537"/>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-lrf_activeAlterTblFileName" id="8153575">
+      <p name="attribute">activeAlterTblFileName</p>
+      <p name="servletName">lrf</p>
+      <p name="value">Redirect_LRF_ActiveAlter_DB.csv</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-lrf_areaCodeTblFileName" id="8153562">
+      <p name="attribute">areaCodeTblFileName</p>
+      <p name="servletName">lrf</p>
+      <p name="value">URI_LRF_AreaCode_DB.csv</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-lrf_bPartyTimeout" id="8153573">
+      <p name="attribute">bPartyTimeout</p>
+      <p name="servletName">lrf</p>
+      <p name="value">60000</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-lrf_dumpCmdInputDir" id="8153549">
+      <p name="attribute">dumpCmdInputDir</p>
+      <p name="servletName">lrf</p>
+      <p name="value">/var/lrf/csvinput/dumpCmdInputDir</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-lrf_dumpOutputDir" id="8153533">
+      <p name="attribute">dumpOutputDir</p>
+      <p name="servletName">lrf</p>
+      <p name="value">/var/lrf/csvinput/dumpOutputDir</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-lrf_dumpPsapDBCmdFile" id="8153552">
+      <p name="attribute">dumpPsapDBCmdFile</p>
+      <p name="servletName">lrf</p>
+      <p name="value">dumpPsapDBCmd.txt</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-lrf_dumpUriDBCmdFile" id="8153554">
+      <p name="attribute">dumpUriDBCmdFile</p>
+      <p name="servletName">lrf</p>
+      <p name="value">dumpUriDBCmd.txt</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-lrf_ecgiTblFileName" id="8153557">
+      <p name="attribute">ecgiTblFileName</p>
+      <p name="servletName">lrf</p>
+      <p name="value">URI_LRF_ECGI_DB.csv</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-lrf_errorCodeNoAreaCode" id="8153558">
+      <p name="attribute">errorCodeNoAreaCode</p>
+      <p name="servletName">lrf</p>
+      <p name="value">404</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-lrf_errorCodeNoECGI" id="8153548">
+      <p name="attribute">errorCodeNoECGI</p>
+      <p name="servletName">lrf</p>
+      <p name="value">404</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-lrf_errorCodeNoESRD" id="8153570">
+      <p name="attribute">errorCodeNoESRD</p>
+      <p name="servletName">lrf</p>
+      <p name="value">404</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-lrf_errorCodeNoPANI" id="8153535">
+      <p name="attribute">errorCodeNoPANI</p>
+      <p name="servletName">lrf</p>
+      <p name="value">404</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-lrf_errorMsgNoAreaCode" id="8153540">
+      <p name="attribute">errorMsgNoAreaCode</p>
+      <p name="servletName">lrf</p>
+      <p name="value">Not Found - Area code not found in in-memory DB</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-lrf_errorMsgNoECGI" id="8153563">
+      <p name="attribute">errorMsgNoECGI</p>
+      <p name="servletName">lrf</p>
+      <p name="value">Not Found - No entry in LRF matches the NPLI</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-lrf_errorMsgNoESRD" id="8153544">
+      <p name="attribute">errorMsgNoESRD</p>
+      <p name="servletName">lrf</p>
+      <p name="value">Not Found - No corresponding ESRD entry found</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-lrf_errorMsgNoPANI" id="8153545">
+      <p name="attribute">errorMsgNoPANI</p>
+      <p name="servletName">lrf</p>
+      <p name="value">Not Found - NPLI was not provided in PANI</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-lrf_esrdTblFileName" id="8153538">
+      <p name="attribute">esrdTblFileName</p>
+      <p name="servletName">lrf</p>
+      <p name="value">Redirect_LRF_ESRD_DB.csv</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-lrf_failureArchDirPSAPLRFDB" id="8153569">
+      <p name="attribute">failureArchDirPSAPLRFDB</p>
+      <p name="servletName">lrf</p>
+      <p name="value">/var/lrf/csvinput/failureArchDirPsapDB</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-lrf_failureArchDirURILRFDB" id="8153550">
+      <p name="attribute">failureArchDirURILRFDB</p>
+      <p name="servletName">lrf</p>
+      <p name="value">/var/lrf/csvinput/failureArchDirURILRFDB</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-lrf_inputDirPSAPLRFDB" id="8153578">
+      <p name="attribute">inputDirPSAPLRFDB</p>
+      <p name="servletName">lrf</p>
+      <p name="value">/var/lrf/csvinput/inputDirPsapDB</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-lrf_inputDirURILRFDB" id="8153555">
+      <p name="attribute">inputDirURILRFDB</p>
+      <p name="servletName">lrf</p>
+      <p name="value">/var/lrf/csvinput/inputDirURILRFDB</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-lrf_latestLoadedPSAPLRFDBDir" id="8153566">
+      <p name="attribute">latestLoadedPSAPLRFDBDir</p>
+      <p name="servletName">lrf</p>
+      <p name="value">/var/lrf/csvinput/latestLoadedDirPsapDB</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-lrf_latestLoadedURILRFDBDir" id="8153567">
+      <p name="attribute">latestLoadedURILRFDBDir</p>
+      <p name="servletName">lrf</p>
+      <p name="value">/var/lrf/csvinput/latestLoadedDirURILRFDB</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-lrf_pollFreqDump" id="8153556">
+      <p name="attribute">pollFreqDump</p>
+      <p name="servletName">lrf</p>
+      <p name="value">5</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-lrf_pollFreqPSAPLRFDB" id="8153560">
+      <p name="attribute">pollFreqPSAPLRFDB</p>
+      <p name="servletName">lrf</p>
+      <p name="value">1</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-lrf_pollFreqURILRFDB" id="8153565">
+      <p name="attribute">pollFreqURILRFDB</p>
+      <p name="servletName">lrf</p>
+      <p name="value">1</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-lrf_psapDomain" id="8153542">
+      <p name="attribute">psapDomain</p>
+      <p name="servletName">lrf</p>
+      <p name="value">sos.rm-n.jp</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-lrf_raiseAlarm" id="8153568">
+      <p name="attribute">raiseAlarm</p>
+      <p name="servletName">lrf</p>
+      <p name="value">true</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-lrf_rakutenDomain" id="8153553">
+      <p name="attribute">rakutenDomain</p>
+      <p name="servletName">lrf</p>
+      <p name="value">ims.mnc011.mcc440.3gppnetwork.org</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-lrf_redirectFlag" id="8153576">
+      <p name="attribute">redirectFlag</p>
+      <p name="servletName">lrf</p>
+      <p name="value">true</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-lrf_successArchDirPSAPLRFDB" id="8153547">
+      <p name="attribute">successArchDirPSAPLRFDB</p>
+      <p name="servletName">lrf</p>
+      <p name="value">/var/lrf/csvinput/successArchDirPsapDB</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-lrf_successArchDirURILRFDB" id="8153577">
+      <p name="attribute">successArchDirURILRFDB</p>
+      <p name="servletName">lrf</p>
+      <p name="value">/var/lrf/csvinput/successArchDirURILRFDB</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-recsnotif_gmlcConnectionTimeout" id="8153534">
+      <p name="attribute">gmlcConnectionTimeout</p>
+      <p name="servletName">recsnotif</p>
+      <p name="value">4</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-recsnotif_gmlcHeaderParam" id="8153546">
+      <p name="attribute">gmlcHeaderParam</p>
+      <p name="servletName">recsnotif</p>
+      <p name="value">rtp99/yt_xk39b</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-recsnotif_gmlcSecondaryServerURLs" id="8153574">
+      <p name="attribute">gmlcSecondaryServerURLs</p>
+      <p name="servletName">recsnotif</p>
+      <p name="value">http://[240b:c010:0101:2870:3781:0002:01FF:0301]:9210;http://[240b:c010:0101:286f:3781:0002:01FF:0301]:9210;http://[240b:c010:0101:282b:3701:0002:01FF:0301]:9210;http://[240b:c010:0101:282a:3701:0002:01FF:0301]:9210</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-recsnotif_gmlcServerURLs" id="8153543">
+      <p name="attribute">gmlcServerURLs</p>
+      <p name="servletName">recsnotif</p>
+      <p name="value">http://[240b:c020:0101:286f:3781:0002:01FF:0301]:9210;http://[240b:c020:0101:2870:3781:0002:01FF:0301]:9210;http://[240b:c020:0101:282b:3701:0002:01FF:0301]:9210;http://[240b:c020:0101:282a:3701:0002:01FF:0301]:9210</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-recsnotif_isAlarmEnable" id="8153564">
+      <p name="attribute">isAlarmEnable</p>
+      <p name="servletName">recsnotif</p>
+      <p name="value">True</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-recsnotif_listUserAgent" id="8153571">
+      <p name="attribute">listUserAgent</p>
+      <p name="entryComment">STAR-Device-NI-LR</p>
+      <p name="servletName">recsnotif</p>
+      <p name="value">iOS;iPhone</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-recsnotif_purDataReferenceAvp" id="8153539">
+      <p name="attribute">purDataReferenceAvp</p>
+      <p name="servletName">recsnotif</p>
+      <p name="value">RepositoryData</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-recsnotif_serviceIndicationAvp" id="8153559">
+      <p name="attribute">serviceIndicationAvp</p>
+      <p name="servletName">recsnotif</p>
+      <p name="value">EME-CALL-STATE</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-recsnotif_sipResponseCode" id="8153551">
+      <p name="attribute">sipResponseCode</p>
+      <p name="servletName">recsnotif</p>
+      <p name="value">603</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-recsnotif_stateRemovalWaitTimer" id="8153561">
+      <p name="attribute">stateRemovalWaitTimer</p>
+      <p name="servletName">recsnotif</p>
+      <p name="value">2</p>
+    </managedObject>
+    <managedObject class="SERVCONFPAR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/SERVCONFPAR-recsnotif_udrDataReferenceAvps" id="8153572">
+      <p name="attribute">udrDataReferenceAvps</p>
+      <p name="servletName">recsnotif</p>
+      <p name="value">RepositoryData;LocationInformation</p>
+    </managedObject>
+    <managedObject class="EASIP" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/EASIP-1" id="8153541"/>
+    <managedObject class="FEESYSTEM" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/FEESYSTEM-1" id="8153536">
+      <p name="errTrnxLoggingThershold">2000</p>
+      <p name="errTrnxLoggingWindow">3</p>
+      <p name="errTrnxProvMgsLogging">DISABLE</p>
+      <p name="updateRouteWithDnsTarget">0</p>
+      <p name="upgradeNonPrioSess">0</p>
+    </managedObject>
+    <managedObject class="IBCHARGING" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/IBCF-1/IBCHARGING-1" id="8153511"/>
+    <managedObject class="IBSYSTEM" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/IBCF-1/IBSYSTEM-1" id="8153510">
+      <p name="baseTimerForOooMsg">0</p>
+      <p name="delayTimerForOooMsg">50</p>
+      <p name="errTrnxLoggingThershold">2000</p>
+      <p name="errTrnxLoggingWindow">3</p>
+      <p name="errTrnxProvMgsLogging">DISABLE</p>
+      <p name="improvedCseqOooBuffLogic">0</p>
+      <p name="maxNoBufferMsg">1</p>
+      <p name="updateRouteWithDnsTarget">0</p>
+    </managedObject>
+    <managedObject class="MCFSYSTEM" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/MCF-1/MCFSYSTEM-1" id="8153490">
+      <p name="updateRouteWithDnsTarget">0</p>
+    </managedObject>
+    <managedObject class="PDFSUPPORT" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/PCSCF-1/PDFSUPPORT-1" id="8153506">
+      <p name="addSubcriptionIdAVP">0</p>
+    </managedObject>
+    <managedObject class="PCTIMER" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/PCSCF-1/PCTIMER-1" id="8153509"/>
+    <managedObject class="PCSYSTEM" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/PCSCF-1/PCSYSTEM-1" id="8153505">
+      <p name="activeSubEvacuationWaitTime">180</p>
+      <p name="adminFlatInviteRej">1</p>
+      <p name="adminFlatOtherReqRej">1</p>
+      <p name="adminFlatRegisterRej">1</p>
+      <p name="adminSelRegisterRej">0</p>
+      <p name="adminSelSipReqRejReason">IMS Core Outage</p>
+      <p name="adminSelSipReqRejRetryAfter">3</p>
+      <p name="baseTimerForOooMsg">0</p>
+      <p name="defaultEMRegistExpires">300</p>
+      <p name="delayTimerForOooMsg">50</p>
+      <p name="enableResponseRetryForIpsec">0</p>
+      <p name="enableTransportSwitchForIPsec">0</p>
+      <p name="errTrnxLoggingThershold">2000</p>
+      <p name="errTrnxLoggingWindow">3</p>
+      <p name="errTrnxProvMgsLogging">DISABLE</p>
+      <p name="evacuateInviteRetryAfter">0</p>
+      <p name="evacuateRegRetryAfter">0</p>
+      <p name="evacuateSubscribers">0</p>
+      <p name="extendedMaxReqBwNR">0</p>
+      <p name="improvedCseqOooBuffLogic">0</p>
+      <p name="ippbxHandleDelegatedCall">0</p>
+      <p name="maxNoBufferMsg">1</p>
+      <p name="s8hrAlwRegWithoutPLMN">1</p>
+      <p name="s8hrRegCompletionTimer">3</p>
+      <p name="s8hrplmnRetrieveTimer">2000</p>
+      <p name="subSeqSessReqPrio">0</p>
+      <p name="updateRouteWithDnsTarget">0</p>
+      <p name="updateRxRealmFromResponse">0</p>
+      <p name="upgradeNonPrioSess">0</p>
+      <p name="useUDPforNAT">0</p>
+    </managedObject>
+    <managedObject class="PCPDFSUPPORT" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/PCSCF-1/PCPDFSUPPORT-1" id="8153508">
+      <p name="addSubcriptionIdAVP">0</p>
+    </managedObject>
+    <managedObject class="PCHARGING" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/PCSCF-1/PCHARGING-1" id="8153507"/>
+    <managedObject class="NMSYSTEM" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/NM-1/NMSYSTEM-1" id="8153489">
+      <p name="updateRouteWithDnsTarget">0</p>
+    </managedObject>
+    <managedObject class="BCPDFSUPPORT" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/BC-1/BCPDFSUPPORT-1" id="8153524"/>
+    <managedObject class="OVL" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/OVLCT-1/OVL-1" id="8153525">
+      <p name="criticalAlarmLoadLevel">7</p>
+      <p name="majorAlarmLoadLevel">4</p>
+      <p name="minorAlarmLoadLevel">1</p>
+      <p name="monProcLoadLevel">5</p>
+      <p name="monitoredProcesses">IMS_DNSPH01;IMS_P_IpDp_ScscfMw01;IMS_P_IpDp_ScscfIsc01;IMS_P_IpDp_Icscf01;IMS_P_IpDp_Bgcf01</p>
+      <p name="pRegClearAlarm">0</p>
+      <p name="pRegMajorAlarm">0</p>
+      <p name="pRegMinorAlarm">0</p>
+      <p name="sRegClearAlarm">0</p>
+      <p name="sRegMajorAlarm">0</p>
+      <p name="sRegMinorAlarm">0</p>
+      <p name="singleProcLoadLevel">5</p>
+    </managedObject>
+    <managedObject class="EATFSYSTEM" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/EATF-1/EATFSYSTEM-1" id="8153498">
+      <p name="errTrnxLoggingThershold">2000</p>
+      <p name="errTrnxLoggingWindow">3</p>
+      <p name="errTrnxProvMgsLogging">DISABLE</p>
+      <p name="updateRouteWithDnsTarget">0</p>
+    </managedObject>
+    <managedObject class="EATFCHARGING" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/EATF-1/EATFCHARGING-1" id="8153499"/>
+    <managedObject class="NODEMON" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/CSCFB-1/NODEMON-1" id="8153504">
+      <p name="maxMonitorTimer">86400</p>
+      <p name="succHBCount">1</p>
+      <p name="succHBTimer">3</p>
+    </managedObject>
+    <managedObject class="CCHARGING" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/CSCFB-1/CCHARGING-1" id="8153503"/>
+    <managedObject class="CSSYSTEM" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/CSCFB-1/CSSYSTEM-1" id="8153502">
+      <p name="adminEmergReqRej">0</p>
+      <p name="adminFlatReqRejReasonHeader">IMS Core Outage</p>
+      <p name="adminFlatSipReqRejRetryAfter">3</p>
+      <p name="adminRejChallenged">0</p>
+      <p name="adminRejEnabled">0</p>
+      <p name="adminReqRejReasonPhrase">Service Unavailable: IMS Core Outage</p>
+      <p name="crrReportingInterface">2</p>
+      <p name="cxDestinationRealm">epc.mnc011.mcc440.3gppnetwork.org</p>
+      <p name="dbUnavailableErrCodeForOptions">503</p>
+      <p name="diameterCauseCounterFlag">0</p>
+      <p name="diameterfailurecausealiasOther">0</p>
+      <p name="domainCounterFlag">0</p>
+      <p name="domaincounteraliasOther">0</p>
+      <p name="enableASPoolCounter">0</p>
+      <p name="enableErrorCounterLogging">0</p>
+      <p name="enableHexPhoneNumSupport">0</p>
+      <p name="enableS8HRRoaming">0</p>
+      <p name="esInetRole">0</p>
+      <p name="escapeSplCharInSIPURI">#</p>
+      <p name="gsIbcfOpState">0</p>
+      <p name="opStatePcscf">0</p>
+      <p name="opStateScscf">3</p>
+      <p name="overloadErrCodeForOptions">500</p>
+      <p name="rttProvMsgLogging">2</p>
+      <p name="rttTrnxLoggingDuration">3</p>
+      <p name="rttTrnxLoggingThreshold">2000</p>
+      <p name="sipCauseCounterFlag">0</p>
+      <p name="sipcausealiasOther">0</p>
+    </managedObject>
+    <managedObject class="ICSYSTEM" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/ICSCF-1/ICSYSTEM-1" id="8153522">
+      <p name="adminFlatInviteRej">1</p>
+      <p name="adminFlatOtherReqRej">1</p>
+      <p name="adminFlatRegisterRej">1</p>
+      <p name="bgcfName">sip:bgcf-td-uhn3sni2cf01.ims.mnc011.mcc440.3gppnetwork.org:5050</p>
+      <p name="eatfParallelForking">0</p>
+      <p name="eatfServerSupervisionTimer">32</p>
+      <p name="enuMforLocalNumber">0</p>
+      <p name="errTrnxLoggingThershold">2000</p>
+      <p name="errTrnxLoggingWindow">3</p>
+      <p name="errTrnxProvMgsLogging">DISABLE</p>
+      <p name="opStateIcscf">0</p>
+      <p name="routingToBgcfonNxdomain">0</p>
+      <p name="updateRouteWithDnsTarget">0</p>
+      <p name="useRnParameterForEnum">0</p>
+    </managedObject>
+    <managedObject class="ICCHARGING" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/ICSCF-1/ICCHARGING-1" id="8153523"/>
+    <managedObject class="STIASSYSTEM" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/STIAS-1/STIASSYSTEM-1" id="8153521">
+      <p name="asActionOnStaleDate">3</p>
+      <p name="opStateStias">0</p>
+      <p name="sipHeaderSigning">1</p>
+      <p name="stiasReqFreshness">3</p>
+      <p name="updateRouteWithDnsTarget">0</p>
+    </managedObject>
+    <managedObject class="STIVSSYSTEM" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/STIVS-1/STIVSSYSTEM-1" id="8153532">
+      <p name="cvtRespTimer">3</p>
+      <p name="enableCVT">0</p>
+      <p name="errorCodesToRejectReq">None</p>
+      <p name="httpCertRespTimer">3</p>
+      <p name="opStateStivs">0</p>
+      <p name="sipHeaderVerification">1</p>
+      <p name="stivsReqFreshness">3</p>
+      <p name="updateRouteWithDnsTarget">0</p>
+      <p name="vsActionOnStaleDate">3</p>
+    </managedObject>
+    <managedObject class="SCHARGING" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/SCHARGING-1" id="8153526"/>
+    <managedObject class="LOCALSERV" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/LOCALSERV-1" id="8153530"/>
+    <managedObject class="SCSYSTEM" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/SCSYSTEM-1" id="8153527">
+      <p name="activeSubEvacuationWaitTime">180</p>
+      <p name="adminFlatInviteRej">1</p>
+      <p name="adminFlatOtherReqRej">1</p>
+      <p name="asInvocationUsingServiceID">0</p>
+      <p name="baseTimerForOooMsg">0</p>
+      <p name="bgcfName">sip:bgcf-td-uhn3sni2cf01.ims.mnc011.mcc440.3gppnetwork.org:5050</p>
+      <p name="delayTimerForOooMsg">50</p>
+      <p name="disableAuthenticationNoMAR">0</p>
+      <p name="e2UvoidSupport">0</p>
+      <p name="enableSeperateIscPort">1</p>
+      <p name="enforceUENonIpsecRespCode">1</p>
+      <p name="enuMforLocalNumber">0</p>
+      <p name="errTrnxLoggingThershold">2000</p>
+      <p name="errTrnxLoggingWindow">3</p>
+      <p name="errTrnxProvMgsLogging">DISABLE</p>
+      <p name="evacuateSubscribers">0</p>
+      <p name="improvedCseqOooBuffLogic">0</p>
+      <p name="ipPbxIsCallCountZero">1</p>
+      <p name="maxNoBufferMsg">1</p>
+      <p name="q850CauseRequiredFrom">1</p>
+      <p name="q850causealiasOther">0</p>
+      <p name="scscfPlannedGSTargetStage">0</p>
+      <p name="shortIscTimerF">0</p>
+      <p name="skGruu3rdPartyReg">0</p>
+      <p name="updateRouteWithDnsTarget">0</p>
+      <p name="upgradeNonPrioSess">0</p>
+      <p name="useRnParameterForEnum">0</p>
+    </managedObject>
+    <managedObject class="RESOURCEMAN" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/RESOURCEMAN-1" id="8153528"/>
+    <managedObject class="SERVPROFILE" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/SERVPROFILE-1" id="8153531"/>
+    <managedObject class="OPERATORSERV" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/OPERATORSERV-1" id="8153529"/>
+    <managedObject class="OMFMAGENT" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/PLATFORM-1/OAM-1/OMFMAGENT-1" id="8153601"/>
+    <managedObject class="EVENTMGMT" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/PLATFORM-1/TSP-1/EVENTMGMT-1" id="8153602"/>
+    <managedObject class="IPDYNROUT" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/PLATFORM-1/CFRAME-1/IPDYNROUT-240bc01010128072f0123ff301_0" id="8153603">
+      <p name="destination">240b:c010:101:2807:2f01:2:3ff:301</p>
+      <p name="device">none</p>
+      <p name="dynRoutingDesc">To Tokyo POD1 Primary DRA</p>
+      <p name="gateway">240b:c020:101:2885::ffff</p>
+      <p name="mtuSize">1500</p>
+      <p name="netmask">/64</p>
+      <p name="nodeId">0</p>
+      <p name="source">240b:c020:101:2885:2b81:2:1ff:302</p>
+    </managedObject>
+    <managedObject class="IPDYNROUT" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/PLATFORM-1/CFRAME-1/IPDYNROUT-240bc010101280a2f0123ff302_0" id="8153607">
+      <p name="destination">240b:c010:101:280a:2f01:2:3ff:302</p>
+      <p name="device">none</p>
+      <p name="dynRoutingDesc">To Tokyo POD1 Secondary DRA</p>
+      <p name="gateway">240b:c020:101:2886::ffff</p>
+      <p name="mtuSize">1500</p>
+      <p name="netmask">/64</p>
+      <p name="nodeId">0</p>
+      <p name="source">240b:c020:101:2886:2b81:2:1ff:303</p>
+    </managedObject>
+    <managedObject class="IPDYNROUT" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/PLATFORM-1/CFRAME-1/IPDYNROUT-240bc010101288c2f8123ff301_0" id="8153609">
+      <p name="destination">240b:c010:101:288c:2f81:2:3ff:301</p>
+      <p name="device">none</p>
+      <p name="dynRoutingDesc">To Tokyo POD2 Primary DRA</p>
+      <p name="gateway">240b:c020:101:2885::ffff</p>
+      <p name="mtuSize">1500</p>
+      <p name="netmask">/64</p>
+      <p name="nodeId">0</p>
+      <p name="source">240b:c020:101:2885:2b81:2:1ff:302</p>
+    </managedObject>
+    <managedObject class="IPDYNROUT" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/PLATFORM-1/CFRAME-1/IPDYNROUT-240bc010101288f2f8123ff302_0" id="8153606">
+      <p name="destination">240b:c010:101:288f:2f81:2:3ff:302</p>
+      <p name="device">none</p>
+      <p name="dynRoutingDesc">To Tokyo POD2 Secondary DRA</p>
+      <p name="gateway">240b:c020:101:2886::ffff</p>
+      <p name="mtuSize">1500</p>
+      <p name="netmask">/64</p>
+      <p name="nodeId">0</p>
+      <p name="source">240b:c020:101:2886:2b81:2:1ff:303</p>
+    </managedObject>
+    <managedObject class="IPDYNROUT" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/PLATFORM-1/CFRAME-1/IPDYNROUT-240bc02010128072f0123ff301_0" id="8153608">
+      <p name="destination">240b:c020:101:2807:2f01:2:3ff:301</p>
+      <p name="device">none</p>
+      <p name="dynRoutingDesc">To Osaka POD1 Primary DRA</p>
+      <p name="gateway">240b:c020:101:2885::ffff</p>
+      <p name="mtuSize">1500</p>
+      <p name="netmask">/64</p>
+      <p name="nodeId">0</p>
+      <p name="source">240b:c020:101:2885:2b81:2:1ff:302</p>
+    </managedObject>
+    <managedObject class="IPDYNROUT" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/PLATFORM-1/CFRAME-1/IPDYNROUT-240bc020101280a2f0123ff302_0" id="8153605">
+      <p name="destination">240b:c020:101:280a:2f01:2:3ff:302</p>
+      <p name="device">none</p>
+      <p name="dynRoutingDesc">To Osaka POD1 Secondary DRA</p>
+      <p name="gateway">240b:c020:101:2886::ffff</p>
+      <p name="mtuSize">1500</p>
+      <p name="netmask">/64</p>
+      <p name="nodeId">0</p>
+      <p name="source">240b:c020:101:2886:2b81:2:1ff:303</p>
+    </managedObject>
+    <managedObject class="IPDYNROUT" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/PLATFORM-1/CFRAME-1/IPDYNROUT-240bc020101288c2f8123ff301_0" id="8153604">
+      <p name="destination">240b:c020:101:288c:2f81:2:3ff:301</p>
+      <p name="device">none</p>
+      <p name="dynRoutingDesc">To Osaka POD2 Primary DRA</p>
+      <p name="gateway">240b:c020:101:2885::ffff</p>
+      <p name="mtuSize">1500</p>
+      <p name="netmask">/64</p>
+      <p name="nodeId">0</p>
+      <p name="source">240b:c020:101:2885:2b81:2:1ff:302</p>
+    </managedObject>
+    <managedObject class="IPDYNROUT" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/PLATFORM-1/CFRAME-1/IPDYNROUT-240bc020101288f2f8123ff302_0" id="8153610">
+      <p name="destination">240b:c020:101:288f:2f81:2:3ff:302</p>
+      <p name="device">none</p>
+      <p name="dynRoutingDesc">To Osaka POD2 Secondary DRA</p>
+      <p name="gateway">240b:c020:101:2886::ffff</p>
+      <p name="mtuSize">1500</p>
+      <p name="netmask">/64</p>
+      <p name="nodeId">0</p>
+      <p name="source">240b:c020:101:2886:2b81:2:1ff:303</p>
+    </managedObject>
+    <managedObject class="FTPPUSH" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/COMMON-1/FTPP-1/FTPPUSH-1" id="8153629">
+      <p name="port">21</p>
+    </managedObject>
+    <managedObject class="DIAMETERCOM" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/COMMON-1/DIAMETERDISP-1/DIAMETERCOM-1" id="8153627">
+      <p name="diaDefaultDisconnectCauseForDP">2</p>
+      <p name="diaGracefulShutdownResultCode">3002</p>
+      <p name="discardStaleMessagesInterfaces">SWx</p>
+      <p name="dpdRetryTimer">3</p>
+      <p name="enableDiaGracefulShutdown">0</p>
+      <p name="enableDynamicPeerDiscoveryforD">0</p>
+      <p name="hssOperationalStatus">0</p>
+      <p name="minActiveApplicationNodesForSe">2</p>
+      <p name="overwriteOriginHostAndRealm">0</p>
+      <p name="supportTwoLBNodeFailure">0</p>
+      <p name="waitForDPRTimer">30000</p>
+    </managedObject>
+    <managedObject class="REALMS" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/COMMON-1/DIAMETERDISP-1/REALMS-DRAHSSSN1" id="8153623">
+      <p name="interfaceID">0</p>
+      <p name="priority">2</p>
+      <p name="realm">epc.mnc011.mcc440.3gppnetwork.org</p>
+      <p name="realmID">DRA-HSS-SN1</p>
+      <p name="server">dra-lb01-uhn3sni1cd01.epc.mnc011.mcc440.3gppnetwork.org</p>
+      <p name="weight">10</p>
+    </managedObject>
+    <managedObject class="REALMS" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/COMMON-1/DIAMETERDISP-1/REALMS-DRAHSSSN2" id="8153626">
+      <p name="interfaceID">0</p>
+      <p name="priority">1</p>
+      <p name="realm">epc.mnc011.mcc440.3gppnetwork.org</p>
+      <p name="realmID">DRA-HSS-SN2</p>
+      <p name="server">dra-lb01-uhn3sni2cd01.epc.mnc011.mcc440.3gppnetwork.org</p>
+      <p name="weight">10</p>
+    </managedObject>
+    <managedObject class="REALMS" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/COMMON-1/DIAMETERDISP-1/REALMS-DRAHSSTT1" id="8153620">
+      <p name="interfaceID">0</p>
+      <p name="priority">3</p>
+      <p name="realm">epc.mnc011.mcc440.3gppnetwork.org</p>
+      <p name="realmID">DRA-HSS-TT1</p>
+      <p name="server">dra-lb01-uhn3tti1cd01.epc.mnc011.mcc440.3gppnetwork.org</p>
+      <p name="weight">10</p>
+    </managedObject>
+    <managedObject class="REALMS" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/COMMON-1/DIAMETERDISP-1/REALMS-DRAHSSTT2" id="8153619">
+      <p name="interfaceID">0</p>
+      <p name="priority">4</p>
+      <p name="realm">epc.mnc011.mcc440.3gppnetwork.org</p>
+      <p name="realmID">DRA-HSS-TT2</p>
+      <p name="server">dra-lb01-uhn3tti2cd01.epc.mnc011.mcc440.3gppnetwork.org</p>
+      <p name="weight">10</p>
+    </managedObject>
+    <managedObject class="CONNECTIONS" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/COMMON-1/DIAMETERDISP-1/CONNECTIONS-DRAHSSSN1" id="8153625">
+      <p name="connectionID">DRA-HSS-SN1</p>
+      <p name="connectionKind">0</p>
+      <p name="connectionType">2</p>
+      <p name="destinationAddress">dra-lb01-uhn3sni1cd01.epc.mnc011.mcc440.3gppnetwork.org</p>
+      <p name="logicalName">IMS_DID01</p>
+      <p name="numberOfConnections">1</p>
+      <p name="port">3868</p>
+      <p name="preferredAddressType">6</p>
+      <p name="reconnect">5</p>
+      <p name="sourceAddress">240b:c020:0101:2885:2b81:0002:01FF:0302</p>
+      <p name="sourceHostname">cscf-cif01-uhn3sni2cf01.ims.mnc011.mcc440.3gppnetwork.org</p>
+      <p name="sourceRealm">ims.mnc011.mcc440.3gppnetwork.org</p>
+      <p name="sourceSecAddress">240b:c020:0101:2886:2b81:0002:01FF:0303</p>
+      <p name="watchdog">6</p>
+    </managedObject>
+    <managedObject class="CONNECTIONS" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/COMMON-1/DIAMETERDISP-1/CONNECTIONS-DRAHSSSN2" id="8153624">
+      <p name="connectionID">DRA-HSS-SN2</p>
+      <p name="connectionKind">0</p>
+      <p name="connectionType">2</p>
+      <p name="destinationAddress">dra-lb01-uhn3sni2cd01.epc.mnc011.mcc440.3gppnetwork.org</p>
+      <p name="logicalName">IMS_DID01</p>
+      <p name="numberOfConnections">1</p>
+      <p name="port">3868</p>
+      <p name="preferredAddressType">6</p>
+      <p name="reconnect">5</p>
+      <p name="sourceAddress">240b:c020:0101:2885:2b81:0002:01FF:0302</p>
+      <p name="sourceHostname">cscf-cif01-uhn3sni2cf01.ims.mnc011.mcc440.3gppnetwork.org</p>
+      <p name="sourceRealm">ims.mnc011.mcc440.3gppnetwork.org</p>
+      <p name="sourceSecAddress">240b:c020:0101:2886:2b81:0002:01FF:0303</p>
+      <p name="watchdog">6</p>
+    </managedObject>
+    <managedObject class="CONNECTIONS" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/COMMON-1/DIAMETERDISP-1/CONNECTIONS-DRAHSSTT1" id="8153622">
+      <p name="connectionID">DRA-HSS-TT1</p>
+      <p name="connectionKind">0</p>
+      <p name="connectionType">2</p>
+      <p name="destinationAddress">dra-lb01-uhn3tti1cd01.epc.mnc011.mcc440.3gppnetwork.org</p>
+      <p name="logicalName">IMS_DID01</p>
+      <p name="numberOfConnections">1</p>
+      <p name="port">3868</p>
+      <p name="preferredAddressType">6</p>
+      <p name="reconnect">5</p>
+      <p name="sourceAddress">240b:c020:0101:2885:2b81:0002:01FF:0302</p>
+      <p name="sourceHostname">cscf-cif01-uhn3sni2cf01.ims.mnc011.mcc440.3gppnetwork.org</p>
+      <p name="sourceRealm">ims.mnc011.mcc440.3gppnetwork.org</p>
+      <p name="sourceSecAddress">240b:c020:0101:2886:2b81:0002:01FF:0303</p>
+      <p name="watchdog">6</p>
+    </managedObject>
+    <managedObject class="CONNECTIONS" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/COMMON-1/DIAMETERDISP-1/CONNECTIONS-DRAHSSTT2" id="8153621">
+      <p name="connectionID">DRA-HSS-TT2</p>
+      <p name="connectionKind">0</p>
+      <p name="connectionType">2</p>
+      <p name="destinationAddress">dra-lb01-uhn3tti2cd01.epc.mnc011.mcc440.3gppnetwork.org</p>
+      <p name="logicalName">IMS_DID01</p>
+      <p name="numberOfConnections">1</p>
+      <p name="port">3868</p>
+      <p name="preferredAddressType">6</p>
+      <p name="reconnect">5</p>
+      <p name="sourceAddress">240b:c020:0101:2885:2b81:0002:01FF:0302</p>
+      <p name="sourceHostname">cscf-cif01-uhn3sni2cf01.ims.mnc011.mcc440.3gppnetwork.org</p>
+      <p name="sourceRealm">ims.mnc011.mcc440.3gppnetwork.org</p>
+      <p name="sourceSecAddress">240b:c020:0101:2886:2b81:0002:01FF:0303</p>
+      <p name="watchdog">6</p>
+    </managedObject>
+    <managedObject class="SYSTEMIMSLB" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/COMMON-1/IMSLB-1/SYSTEMIMSLB-1" id="8153630">
+      <p name="bfdDetectMultiplier">5</p>
+      <p name="bfdRxInterval">2000</p>
+      <p name="bfdTxInterval">2000</p>
+      <p name="cfxTestModeInterfaces">Disabled</p>
+      <p name="dBPermFailTimerN">3</p>
+      <p name="dataStoreConnAvailableThreshol">50</p>
+      <p name="dataStoreConnTimeout">2000</p>
+      <p name="dataStoreDelayedWriteDuration">2</p>
+      <p name="dataStoreDscpValue">0</p>
+      <p name="dataStoreHBInterval">1000</p>
+      <p name="dataStoreResponseTimeout">5000</p>
+      <p name="dataStoreType">0</p>
+      <p name="dataStoreUnavailErrCode">500</p>
+      <p name="dataStoreUnavailErrCodeForReg">500</p>
+      <p name="dataStoreUnavailRetryInterval">32</p>
+      <p name="dbSortedSetFetchCount">10000</p>
+      <p name="dbWrapperQLength">65535</p>
+      <p name="enableMultiplevLAN">0</p>
+      <p name="hexPhoneNumSupportFlag">0</p>
+      <p name="ipPbxTrafficVNFDistribution">0</p>
+      <p name="ippbxLoadDistribute">0</p>
+      <p name="minVMCountCDI">0</p>
+      <p name="minVMCountCSCF">0</p>
+      <p name="minvmcounttdCore">0</p>
+      <p name="minvmcounttdGm">0</p>
+      <p name="normalStateDBRTT">1</p>
+      <p name="pcapThresholdPPS">65000</p>
+      <p name="permDbFailureCheckDuration">10</p>
+      <p name="pmCacheInvalidateDuration">5</p>
+      <p name="sdlDataStoreAppType">1</p>
+      <p name="sdlDataStoreDiscoveryRetryInte">1</p>
+      <p name="sdlDataStoreKeyspaceVersion">v1</p>
+      <p name="sdlDataStoreMode">1</p>
+      <p name="sdlDataStoreProtocol">resp</p>
+      <p name="sdlDataStoreServiceType">1</p>
+      <p name="sdlDataStoreTrafficType">rt</p>
+      <p name="sipOptionFreqForVnfFODetection">2</p>
+      <p name="sipTrafficDistribution">1</p>
+      <p name="testModeEnableGracePeriod">1800</p>
+      <p name="vnfBfdSessionDownTime">10</p>
+      <p name="vnfFbGaurdTimer">900</p>
+      <p name="vnfMaxDnsUpdateRetries">2</p>
+      <p name="vnfSplitBrainCheckTimeOut">3</p>
+    </managedObject>
+    <managedObject class="SCTPCONF" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/COMMON-1/DIA-1/SCTPCONF-DEFAULTSCTPOPTIONS" id="8153618">
+      <p name="associationMaxRetrans">4</p>
+      <p name="connectionID">DEFAULT_SCTP_OPTIONS</p>
+      <p name="heartBeatInterval">30000</p>
+      <p name="inboundStreamsSctp">32</p>
+      <p name="outboundStreamsSctp">32</p>
+      <p name="pathMaxRetrans">2</p>
+      <p name="rtoInitial">1000</p>
+      <p name="rtoMax">400</p>
+      <p name="rtoMin">200</p>
+      <p name="sackTimeout">200</p>
+      <p name="setPeerPrimary">0</p>
+    </managedObject>
+    <managedObject class="DIACOMMON" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/COMMON-1/DIA-1/DIACOMMON-1" id="8153617">
+      <p name="activePortList">3868</p>
+      <p name="diaSessionPrioActive">0</p>
+      <p name="dynamicThrottling">0</p>
+      <p name="enableDiamConnMgmt">0</p>
+      <p name="multiConFrmSameHost">0</p>
+      <p name="sbGeoSessionSharing">0</p>
+    </managedObject>
+    <managedObject class="TRACEDSUBSCR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/COMMON-1/STRC-1/TRACEDSUBSCR-1" id="8153628"/>
+    <managedObject class="BGSYSSPSTBL" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/BGCF-1/BGSYSTEM-1/BGSYSSPSTBL-1" id="8153613">
+      <p name="actualVersion">1</p>
+      <p name="direction">2</p>
+      <p name="eventTrigger">1</p>
+      <p name="priority">1</p>
+      <p name="serviceName">sip:mm@localhost;clist=Change-184-DisplayName-PAI-Tel</p>
+      <p name="sessionSide">2</p>
+    </managedObject>
+    <managedObject class="BGOFFLINE" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/BGCF-1/BGCHARGING-1/BGOFFLINE-1" id="8153612"/>
+    <managedObject class="DIAMETER" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/EASIP-1/DIAMETER-1" id="8153690"/>
+    <managedObject class="IBOFFLINE" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/IBCF-1/IBCHARGING-1/IBOFFLINE-1" id="8153616"/>
+    <managedObject class="PCOFFLINE" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/PCSCF-1/PCHARGING-1/PCOFFLINE-1" id="8153615"/>
+    <managedObject class="EATFOFFLINE" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/EATF-1/EATFCHARGING-1/EATFOFFLINE-1" id="8153611"/>
+    <managedObject class="BOFFLINE" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/CSCFB-1/CCHARGING-1/BOFFLINE-1" id="8153614">
+      <p name="routeRecordValue">0</p>
+    </managedObject>
+    <managedObject class="ICSYSSPSTBL" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/ICSCF-1/ICSYSTEM-1/ICSYSSPSTBL-1" id="8153641">
+      <p name="actualVersion">1</p>
+      <p name="direction">2</p>
+      <p name="eventTrigger">0</p>
+      <p name="priority">1</p>
+      <p name="serviceName">sip:mm@localhost;clist=Flexible-charging-pattern1</p>
+      <p name="sessionSide">2</p>
+    </managedObject>
+    <managedObject class="ICSYSSPSTBL" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/ICSCF-1/ICSYSTEM-1/ICSYSSPSTBL-10" id="8153637">
+      <p name="actualVersion">1</p>
+      <p name="direction">2</p>
+      <p name="eventTrigger">1</p>
+      <p name="priority">10</p>
+      <p name="serviceName">sip:mm@localhost;clist=Flexible-charging-Cresponse</p>
+      <p name="sessionSide">2</p>
+    </managedObject>
+    <managedObject class="ICSYSSPSTBL" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/ICSCF-1/ICSYSTEM-1/ICSYSSPSTBL-12" id="8153635">
+      <p name="actualVersion">1</p>
+      <p name="direction">2</p>
+      <p name="eventTrigger">0</p>
+      <p name="priority">12</p>
+      <p name="serviceName">sip:mm@localhost;clist=rejectIosRegister</p>
+      <p name="sessionSide">1</p>
+    </managedObject>
+    <managedObject class="ICSYSSPSTBL" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/ICSCF-1/ICSYSTEM-1/ICSYSSPSTBL-2" id="8153643">
+      <p name="actualVersion">1</p>
+      <p name="direction">2</p>
+      <p name="eventTrigger">0</p>
+      <p name="priority">2</p>
+      <p name="serviceName">sip:mm@localhost;clist=Flexible-charging-pattern2</p>
+      <p name="sessionSide">2</p>
+    </managedObject>
+    <managedObject class="ICSYSSPSTBL" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/ICSCF-1/ICSYSTEM-1/ICSYSSPSTBL-3" id="8153642">
+      <p name="actualVersion">1</p>
+      <p name="direction">2</p>
+      <p name="eventTrigger">0</p>
+      <p name="priority">3</p>
+      <p name="serviceName">sip:mm@localhost;clist=Flexible-charging-pattern3</p>
+      <p name="sessionSide">2</p>
+    </managedObject>
+    <managedObject class="ICSYSSPSTBL" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/ICSCF-1/ICSYSTEM-1/ICSYSSPSTBL-4" id="8153645">
+      <p name="actualVersion">1</p>
+      <p name="direction">2</p>
+      <p name="eventTrigger">0</p>
+      <p name="priority">4</p>
+      <p name="serviceName">sip:mm@localhost;clist=Flexible-charging-pattern4</p>
+      <p name="sessionSide">2</p>
+    </managedObject>
+    <managedObject class="ICSYSSPSTBL" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/ICSCF-1/ICSYSTEM-1/ICSYSSPSTBL-5" id="8153644">
+      <p name="actualVersion">1</p>
+      <p name="direction">2</p>
+      <p name="eventTrigger">0</p>
+      <p name="priority">5</p>
+      <p name="serviceName">sip:mm@localhost;clist=Flexible-charging-pattern5</p>
+      <p name="sessionSide">2</p>
+    </managedObject>
+    <managedObject class="ICSYSSPSTBL" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/ICSCF-1/ICSYSTEM-1/ICSYSSPSTBL-6" id="8153632">
+      <p name="actualVersion">1</p>
+      <p name="direction">2</p>
+      <p name="eventTrigger">0</p>
+      <p name="priority">6</p>
+      <p name="serviceName">sip:mm@localhost;clist=Flexible-charging-pattern6</p>
+      <p name="sessionSide">2</p>
+    </managedObject>
+    <managedObject class="ICSYSSPSTBL" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/ICSCF-1/ICSYSTEM-1/ICSYSSPSTBL-7" id="8153631">
+      <p name="actualVersion">1</p>
+      <p name="direction">2</p>
+      <p name="eventTrigger">0</p>
+      <p name="priority">7</p>
+      <p name="serviceName">sip:mm@localhost;clist=Flexible-charging-pattern7</p>
+      <p name="sessionSide">2</p>
+    </managedObject>
+    <managedObject class="ICSYSSPSTBL" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/ICSCF-1/ICSYSTEM-1/ICSYSSPSTBL-8" id="8153634">
+      <p name="actualVersion">1</p>
+      <p name="direction">2</p>
+      <p name="eventTrigger">0</p>
+      <p name="priority">8</p>
+      <p name="serviceName">sip:mm@localhost;clist=Flexible-charging-pattern8</p>
+      <p name="sessionSide">2</p>
+    </managedObject>
+    <managedObject class="ICSYSSPSTBL" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/ICSCF-1/ICSYSTEM-1/ICSYSSPSTBL-9" id="8153633">
+      <p name="actualVersion">1</p>
+      <p name="direction">2</p>
+      <p name="eventTrigger">0</p>
+      <p name="priority">9</p>
+      <p name="serviceName">sip:mm@localhost;clist=Flexible-charging-pattern9</p>
+      <p name="sessionSide">2</p>
+    </managedObject>
+    <managedObject class="TABOFSCSCFS" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/ICSCF-1/ICSYSTEM-1/TABOFSCSCFS-sipscscftduhn3sni1cf01.ims.mnc011.mcc440.3gppnetwork.org5090" id="8153640">
+      <p name="scscfCapabilities">1 2 3 4 5 6 7 8 9</p>
+      <p name="scscfName">sip:scscf-td-uhn3sni1cf01.ims.mnc011.mcc440.3gppnetwork.org:5090</p>
+      <p name="scscfPriority">2</p>
+      <p name="scscfWeight">100</p>
+    </managedObject>
+    <managedObject class="TABOFSCSCFS" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/ICSCF-1/ICSYSTEM-1/TABOFSCSCFS-sipscscftduhn3sni2cf01.ims.mnc011.mcc440.3gppnetwork.org5090" id="8153639">
+      <p name="scscfCapabilities">1 2 3 4 5 6 7 8 9</p>
+      <p name="scscfName">sip:scscf-td-uhn3sni2cf01.ims.mnc011.mcc440.3gppnetwork.org:5090</p>
+      <p name="scscfPriority">1</p>
+      <p name="scscfWeight">100</p>
+    </managedObject>
+    <managedObject class="TABOFSCSCFS" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/ICSCF-1/ICSYSTEM-1/TABOFSCSCFS-sipscscftduhn3tti1cf01.ims.mnc011.mcc440.3gppnetwork.org5090" id="8153636">
+      <p name="scscfCapabilities">1 2 3 4 5 6 7 8 9</p>
+      <p name="scscfName">sip:scscf-td-uhn3tti1cf01.ims.mnc011.mcc440.3gppnetwork.org:5090</p>
+      <p name="scscfPriority">4</p>
+      <p name="scscfWeight">100</p>
+    </managedObject>
+    <managedObject class="TABOFSCSCFS" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/ICSCF-1/ICSYSTEM-1/TABOFSCSCFS-sipscscftduhn3tti2cf01.ims.mnc011.mcc440.3gppnetwork.org5090" id="8153638">
+      <p name="scscfCapabilities">1 2 3 4 5 6 7 8 9</p>
+      <p name="scscfName">sip:scscf-td-uhn3tti2cf01.ims.mnc011.mcc440.3gppnetwork.org:5090</p>
+      <p name="scscfPriority">3</p>
+      <p name="scscfWeight">100</p>
+    </managedObject>
+    <managedObject class="ICOFFLINE" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/ICSCF-1/ICCHARGING-1/ICOFFLINE-1" id="8153646"/>
+    <managedObject class="SOFFLINE" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/SCHARGING-1/SOFFLINE-1" id="8153647">
+      <p name="attSpecific">0</p>
+      <p name="enhanceNodeType">0</p>
+    </managedObject>
+    <managedObject class="CONFIGUR" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/LOCALSERV-1/CONFIGUR-route_dsn" id="8153674">
+      <p name="key">dsn</p>
+      <p name="serviceName">route</p>
+      <p name="value">sip:dsn000.dsn.mobile.rakuten.co.jp;lr</p>
+    </managedObject>
+    <managedObject class="SCSYSSPSTBL" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/SCSYSTEM-1/SCSYSSPSTBL-1" id="8153648">
+      <p name="actualVersion">1</p>
+      <p name="direction">2</p>
+      <p name="eventTrigger">0</p>
+      <p name="priority">1</p>
+      <p name="serviceName">sip:mm@localhost;clist=Remove_RPH</p>
+      <p name="sessionSide">3</p>
+    </managedObject>
+    <managedObject class="SCSYSSPSTBL" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/SCSYSTEM-1/SCSYSSPSTBL-2" id="8153651">
+      <p name="actualVersion">1</p>
+      <p name="direction">2</p>
+      <p name="eventTrigger">1</p>
+      <p name="priority">2</p>
+      <p name="serviceName">sip:mm@localhost;clist=Add-184-DisplayName-PAI</p>
+      <p name="sessionSide">1</p>
+    </managedObject>
+    <managedObject class="SCSYSSPSTBL" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/SCSYSTEM-1/SCSYSSPSTBL-3" id="8153650">
+      <p name="actualVersion">1</p>
+      <p name="direction">2</p>
+      <p name="eventTrigger">0</p>
+      <p name="priority">3</p>
+      <p name="serviceName">sip:mm@localhost;clist=store_ios_callID</p>
+      <p name="sessionSide">1</p>
+    </managedObject>
+    <managedObject class="SCSYSSPSTBL" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/SCSYSTEM-1/SCSYSSPSTBL-4" id="8153652">
+      <p name="actualVersion">1</p>
+      <p name="direction">2</p>
+      <p name="eventTrigger">1</p>
+      <p name="priority">4</p>
+      <p name="serviceName">sip:mm@localhost;clist=match_ios_callID480</p>
+      <p name="sessionSide">1</p>
+    </managedObject>
+    <managedObject class="SCSCFANAMES" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/SCSYSTEM-1/SCSCFANAMES-scscfforas" id="8153649">
+      <p name="aliasName">scscf-for-as</p>
+    </managedObject>
+    <managedObject class="ASRESOURCE" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/RESOURCEMAN-1/ASRESOURCE-testTasPool_siptassmuhn3sni1ts01.ims.mnc011.mcc440.3gppnetwork.org1" id="8153663">
+      <p name="poolName">testTasPool</p>
+      <p name="priority">1</p>
+      <p name="resAddress">sip:tas-sm-uhn3sni1ts01.ims.mnc011.mcc440.3gppnetwork.org:\\1</p>
+      <p name="state">0</p>
+      <p name="weight">100</p>
+    </managedObject>
+    <managedObject class="ASRESOURCE" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/RESOURCEMAN-1/ASRESOURCE-voiceovercs_siptassmuhn3sni1ts01.ims.mnc011.mcc440.3gppnetwork.org1" id="8153655">
+      <p name="poolName">voiceovercs</p>
+      <p name="priority">2</p>
+      <p name="resAddress">sip:tas-sm-uhn3sni1ts01.ims.mnc011.mcc440.3gppnetwork.org:\\1</p>
+      <p name="state">0</p>
+      <p name="weight">100</p>
+    </managedObject>
+    <managedObject class="ASRESOURCE" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/RESOURCEMAN-1/ASRESOURCE-voiceovercs_siptassmuhn3sni2ts01.ims.mnc011.mcc440.3gppnetwork.org1" id="8153654">
+      <p name="poolName">voiceovercs</p>
+      <p name="priority">1</p>
+      <p name="resAddress">sip:tas-sm-uhn3sni2ts01.ims.mnc011.mcc440.3gppnetwork.org:\\1</p>
+      <p name="state">0</p>
+      <p name="weight">100</p>
+    </managedObject>
+    <managedObject class="ASRESOURCE" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/RESOURCEMAN-1/ASRESOURCE-voiceovercs_siptassmuhn3tti1ts01.ims.mnc011.mcc440.3gppnetwork.org1" id="8153660">
+      <p name="poolName">voiceovercs</p>
+      <p name="priority">4</p>
+      <p name="resAddress">sip:tas-sm-uhn3tti1ts01.ims.mnc011.mcc440.3gppnetwork.org:\\1</p>
+      <p name="state">0</p>
+      <p name="weight">100</p>
+    </managedObject>
+    <managedObject class="ASRESOURCE" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/RESOURCEMAN-1/ASRESOURCE-voiceovercs_siptassmuhn3tti2ts01.ims.mnc011.mcc440.3gppnetwork.org1" id="8153661">
+      <p name="poolName">voiceovercs</p>
+      <p name="priority">3</p>
+      <p name="resAddress">sip:tas-sm-uhn3tti2ts01.ims.mnc011.mcc440.3gppnetwork.org:\\1</p>
+      <p name="state">0</p>
+      <p name="weight">100</p>
+    </managedObject>
+    <managedObject class="ASRESOURCE" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/RESOURCEMAN-1/ASRESOURCE-volteaspool_siptassmuhn3sni1ts01.ims.mnc011.mcc440.3gppnetwork.org1" id="8153658">
+      <p name="poolName">volteaspool</p>
+      <p name="priority">2</p>
+      <p name="resAddress">sip:tas-sm-uhn3sni1ts01.ims.mnc011.mcc440.3gppnetwork.org:\\1</p>
+      <p name="state">0</p>
+      <p name="weight">100</p>
+    </managedObject>
+    <managedObject class="ASRESOURCE" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/RESOURCEMAN-1/ASRESOURCE-volteaspool_siptassmuhn3sni2ts01.ims.mnc011.mcc440.3gppnetwork.org1" id="8153657">
+      <p name="poolName">volteaspool</p>
+      <p name="priority">1</p>
+      <p name="resAddress">sip:tas-sm-uhn3sni2ts01.ims.mnc011.mcc440.3gppnetwork.org:\\1</p>
+      <p name="state">0</p>
+      <p name="weight">100</p>
+    </managedObject>
+    <managedObject class="ASRESOURCE" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/RESOURCEMAN-1/ASRESOURCE-volteaspool_siptassmuhn3tti1ts01.ims.mnc011.mcc440.3gppnetwork.org1" id="8153662">
+      <p name="poolName">volteaspool</p>
+      <p name="priority">4</p>
+      <p name="resAddress">sip:tas-sm-uhn3tti1ts01.ims.mnc011.mcc440.3gppnetwork.org:\\1</p>
+      <p name="state">0</p>
+      <p name="weight">100</p>
+    </managedObject>
+    <managedObject class="ASRESOURCE" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/RESOURCEMAN-1/ASRESOURCE-volteaspool_siptassmuhn3tti2ts01.ims.mnc011.mcc440.3gppnetwork.org1" id="8153664">
+      <p name="poolName">volteaspool</p>
+      <p name="priority">3</p>
+      <p name="resAddress">sip:tas-sm-uhn3tti2ts01.ims.mnc011.mcc440.3gppnetwork.org:\\1</p>
+      <p name="state">0</p>
+      <p name="weight">100</p>
+    </managedObject>
+    <managedObject class="ASPOOL" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/RESOURCEMAN-1/ASPOOL-testTasPool" id="8153653">
+      <p name="failResponseType">408,503</p>
+      <p name="failbackBehavior">1</p>
+      <p name="failureThreshold">10</p>
+      <p name="inactiveRevokeTimer">10</p>
+      <p name="poolName">testTasPool</p>
+      <p name="poolType">1</p>
+    </managedObject>
+    <managedObject class="ASPOOL" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/RESOURCEMAN-1/ASPOOL-voiceovercs" id="8153659">
+      <p name="failResponseType">408,503</p>
+      <p name="failbackBehavior">1</p>
+      <p name="failureThreshold">10</p>
+      <p name="inactiveRevokeTimer">10</p>
+      <p name="poolName">voiceovercs</p>
+      <p name="poolType">1</p>
+    </managedObject>
+    <managedObject class="ASPOOL" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/RESOURCEMAN-1/ASPOOL-volteaspool" id="8153656">
+      <p name="failResponseType">408,503,504</p>
+      <p name="failbackBehavior">1</p>
+      <p name="failureThreshold">10</p>
+      <p name="inactiveRevokeTimer">900</p>
+      <p name="poolName">volteaspool</p>
+      <p name="poolType">1</p>
+    </managedObject>
+    <managedObject class="SHARIFCLIST" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/SERVPROFILE-1/SHARIFCLIST-111_20" id="8153688">
+      <p name="applServerAddress">sip:voiceovercs@aspool;aspool-param1=5070</p>
+      <p name="defaultHandling">c</p>
+      <p name="includeRegisterRequest">y</p>
+      <p name="includeRegisterResponse">r</p>
+      <p name="priority">2</p>
+      <p name="serviceInformation">Registration</p>
+      <p name="sharediFCID">111</p>
+      <p name="triggerPoints">&lt;TP&gt;&lt;CT&gt;1&lt;/CT&gt;&lt;SPT&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;MTD&gt;REGISTER&lt;/MTD&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;Contact&lt;/ID&gt;&lt;CO&gt;(3gpp-service.ims.icsi.mmtel)&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;2&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;Contact&lt;/ID&gt;&lt;CO&gt;sos&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;/TP&gt;</p>
+    </managedObject>
+    <managedObject class="SHARIFCLIST" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/SERVPROFILE-1/SHARIFCLIST-111_30" id="8153686">
+      <p name="applServerAddress">sip:voiceovercs@aspool;aspool-param1=5070</p>
+      <p name="defaultHandling">t</p>
+      <p name="includeRegisterRequest">r</p>
+      <p name="includeRegisterResponse">r</p>
+      <p name="priority">3</p>
+      <p name="serviceInformation">MO_INVITE</p>
+      <p name="sharediFCID">111</p>
+      <p name="triggerPoints">&lt;TP&gt;&lt;CT&gt;0&lt;/CT&gt;&lt;SPT&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;SCE&gt;0&lt;/SCE&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;MTD&gt;INVITE&lt;/MTD&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;Content-Type&lt;/ID&gt;&lt;CO&gt;application/sdp&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;SDN&gt;&lt;LN&gt;body&lt;/LN&gt;&lt;CO&gt;m=(audio|video|image)&lt;/CO&gt;&lt;/SDN&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;Route&lt;/ID&gt;&lt;CO&gt;(service=no_nvs_orig_service)&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;URI&gt;urn:service:sos\.(police|fire|marine)&lt;/URI&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;URI&gt;(sip|tel):%239910|(sip|tel):#9910&lt;/URI&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;Priority&lt;/ID&gt;&lt;CO&gt;emergency&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;SCE&gt;0&lt;/SCE&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;MTD&gt;INVITE&lt;/MTD&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;Content-Type&lt;/ID&gt;&lt;CO&gt;application/sdp&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;SDN&gt;&lt;LN&gt;body&lt;/LN&gt;&lt;CO&gt;m=(audio|video|image)&lt;/CO&gt;&lt;/SDN&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;Route&lt;/ID&gt;&lt;CO&gt;(service=no_nvs_orig_service)&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;URI&gt;urn:service:sos\.(police|fire|marine)&lt;/URI&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;URI&gt;(sip|tel):%23[0-9]{4}&lt;/URI&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;URI&gt;(sip|tel):#[0-9]{4}&lt;/URI&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;Priority&lt;/ID&gt;&lt;CO&gt;emergency&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;/TP&gt;</p>
+    </managedObject>
+    <managedObject class="SHARIFCLIST" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/SERVPROFILE-1/SHARIFCLIST-111_40" id="8153685">
+      <p name="applServerAddress">sip:voiceovercs@aspool;aspool-param1=5090;TADSType=c-tads</p>
+      <p name="defaultHandling">t</p>
+      <p name="includeRegisterRequest">r</p>
+      <p name="includeRegisterResponse">r</p>
+      <p name="priority">40</p>
+      <p name="serviceInformation">TerminatingINVITERegistered</p>
+      <p name="sharediFCID">111</p>
+      <p name="triggerPoints">&lt;TriggerPoint&gt;&lt;ConditionTypeCNF&gt;1&lt;/ConditionTypeCNF&gt;&lt;SPT&gt;&lt;ConditionNegated&gt;0&lt;/ConditionNegated&gt;&lt;Group&gt;0&lt;/Group&gt;&lt;SessionCase&gt;1&lt;/SessionCase&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;ConditionNegated&gt;0&lt;/ConditionNegated&gt;&lt;Group&gt;1&lt;/Group&gt;&lt;Method&gt;INVITE&lt;/Method&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;ConditionNegated&gt;0&lt;/ConditionNegated&gt;&lt;Group&gt;3&lt;/Group&gt;&lt;SessionDescription&gt;&lt;Line&gt;body&lt;/Line&gt;&lt;Content&gt;m=audio&lt;/Content&gt;&lt;/SessionDescription&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;ConditionNegated&gt;1&lt;/ConditionNegated&gt;&lt;Group&gt;4&lt;/Group&gt;&lt;SIPHeader&gt;&lt;Header&gt;Route&lt;/Header&gt;&lt;Content&gt;service=no_nvs_orig_service&lt;/Content&gt;&lt;/SIPHeader&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;ConditionNegated&gt;0&lt;/ConditionNegated&gt;&lt;Group&gt;5&lt;/Group&gt;&lt;SIPHeader&gt;&lt;Header&gt;Content-Type&lt;/Header&gt;&lt;Content&gt;application/sdp&lt;/Content&gt;&lt;/SIPHeader&gt;&lt;/SPT&gt;&lt;/TriggerPoint&gt;</p>
+    </managedObject>
+    <managedObject class="SHARIFCLIST" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/SERVPROFILE-1/SHARIFCLIST-111_50" id="8153684">
+      <p name="applServerAddress">sip:voiceovercs@aspool;aspool-param1=5090;TADSType=c-tads</p>
+      <p name="defaultHandling">t</p>
+      <p name="includeRegisterRequest">r</p>
+      <p name="includeRegisterResponse">r</p>
+      <p name="priority">50</p>
+      <p name="serviceInformation">TerminatingINVITEUnregistered</p>
+      <p name="sharediFCID">111</p>
+      <p name="triggerPoints">&lt;TriggerPoint&gt;&lt;ConditionTypeCNF&gt;1&lt;/ConditionTypeCNF&gt;&lt;SPT&gt;&lt;ConditionNegated&gt;0&lt;/ConditionNegated&gt;&lt;Group&gt;0&lt;/Group&gt;&lt;SessionCase&gt;2&lt;/SessionCase&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;ConditionNegated&gt;0&lt;/ConditionNegated&gt;&lt;Group&gt;1&lt;/Group&gt;&lt;Method&gt;INVITE&lt;/Method&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;ConditionNegated&gt;0&lt;/ConditionNegated&gt;&lt;Group&gt;3&lt;/Group&gt;&lt;SessionDescription&gt;&lt;Line&gt;body&lt;/Line&gt;&lt;Content&gt;m=audio&lt;/Content&gt;&lt;/SessionDescription&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;ConditionNegated&gt;1&lt;/ConditionNegated&gt;&lt;Group&gt;4&lt;/Group&gt;&lt;SIPHeader&gt;&lt;Header&gt;Route&lt;/Header&gt;&lt;Content&gt;service=no_nvs_orig_service&lt;/Content&gt;&lt;/SIPHeader&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;ConditionNegated&gt;0&lt;/ConditionNegated&gt;&lt;Group&gt;5&lt;/Group&gt;&lt;SIPHeader&gt;&lt;Header&gt;Content-Type&lt;/Header&gt;&lt;Content&gt;application/sdp&lt;/Content&gt;&lt;/SIPHeader&gt;&lt;/SPT&gt;&lt;/TriggerPoint&gt;</p>
+    </managedObject>
+    <managedObject class="SHARIFCLIST" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/SERVPROFILE-1/SHARIFCLIST-111_60" id="8153683">
+      <p name="applServerAddress">sip:voiceovercs@aspool;aspool-param1=5070</p>
+      <p name="defaultHandling">t</p>
+      <p name="includeRegisterRequest">r</p>
+      <p name="includeRegisterResponse">r</p>
+      <p name="priority">3</p>
+      <p name="serviceInformation">SMS</p>
+      <p name="sharediFCID">111</p>
+      <p name="triggerPoints">&lt;TriggerPoint&gt;&lt;ConditionTypeCNF&gt;1&lt;/ConditionTypeCNF&gt;&lt;SPT&gt;&lt;Group&gt;0&lt;/Group&gt;&lt;SessionCase&gt;0&lt;/SessionCase&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;Group&gt;1&lt;/Group&gt;&lt;Method&gt;MESSAGE&lt;/Method&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;Group&gt;2&lt;/Group&gt;&lt;SIPHeader&gt;&lt;Header&gt;Content-Type&lt;/Header&gt;&lt;Content&gt;application/vnd.3gpp.sms&lt;/Content&gt;&lt;/SIPHeader&gt;&lt;/SPT&gt;&lt;/TriggerPoint&gt;</p>
+    </managedObject>
+    <managedObject class="SHARIFCLIST" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/SERVPROFILE-1/SHARIFCLIST-222_20" id="8153682">
+      <p name="applServerAddress">sip:testTasPool@aspool;aspool-param1=5070</p>
+      <p name="defaultHandling">c</p>
+      <p name="includeRegisterRequest">y</p>
+      <p name="includeRegisterResponse">r</p>
+      <p name="priority">2</p>
+      <p name="serviceInformation">Registration</p>
+      <p name="sharediFCID">344</p>
+      <p name="triggerPoints">&lt;TP&gt;&lt;CT&gt;1&lt;/CT&gt;&lt;SPT&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;MTD&gt;REGISTER&lt;/MTD&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;Contact&lt;/ID&gt;&lt;CO&gt;(3gpp-service.ims.icsi.mmtel)&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;2&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;Contact&lt;/ID&gt;&lt;CO&gt;sos&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;/TP&gt;</p>
+    </managedObject>
+    <managedObject class="SHARIFCLIST" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/SERVPROFILE-1/SHARIFCLIST-222_30" id="8153681">
+      <p name="applServerAddress">sip:testTasPool@aspool;aspool-param1=5070</p>
+      <p name="defaultHandling">t</p>
+      <p name="includeRegisterRequest">r</p>
+      <p name="includeRegisterResponse">r</p>
+      <p name="priority">3</p>
+      <p name="serviceInformation">MO_INVITE</p>
+      <p name="sharediFCID">344</p>
+      <p name="triggerPoints">&lt;TP&gt;&lt;CT&gt;0&lt;/CT&gt;&lt;SPT&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;SCE&gt;0&lt;/SCE&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;MTD&gt;INVITE&lt;/MTD&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;Content-Type&lt;/ID&gt;&lt;CO&gt;application/sdp&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;SDN&gt;&lt;LN&gt;body&lt;/LN&gt;&lt;CO&gt;m=(audio|video|image)&lt;/CO&gt;&lt;/SDN&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;Route&lt;/ID&gt;&lt;CO&gt;(service=no_nvs_orig_service)&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;URI&gt;urn:service:sos\.(police|fire|marine)&lt;/URI&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;URI&gt;(sip|tel):%239910|(sip|tel):#9910&lt;/URI&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;Priority&lt;/ID&gt;&lt;CO&gt;emergency&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;SCE&gt;0&lt;/SCE&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;MTD&gt;INVITE&lt;/MTD&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;Content-Type&lt;/ID&gt;&lt;CO&gt;application/sdp&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;SDN&gt;&lt;LN&gt;body&lt;/LN&gt;&lt;CO&gt;m=(audio|video|image)&lt;/CO&gt;&lt;/SDN&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;Route&lt;/ID&gt;&lt;CO&gt;(service=no_nvs_orig_service)&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;URI&gt;urn:service:sos\.(police|fire|marine)&lt;/URI&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;URI&gt;(sip|tel):%23[0-9]{4}&lt;/URI&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;URI&gt;(sip|tel):#[0-9]{4}&lt;/URI&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;Priority&lt;/ID&gt;&lt;CO&gt;emergency&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;/TP&gt;</p>
+    </managedObject>
+    <managedObject class="SHARIFCLIST" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/SERVPROFILE-1/SHARIFCLIST-222_40" id="8153680">
+      <p name="applServerAddress">sip:testTasPool@aspool;aspool-param1=5090;TADSType=c-tads</p>
+      <p name="defaultHandling">t</p>
+      <p name="includeRegisterRequest">r</p>
+      <p name="includeRegisterResponse">r</p>
+      <p name="priority">40</p>
+      <p name="serviceInformation">TerminatingINVITERegistered</p>
+      <p name="sharediFCID">344</p>
+      <p name="triggerPoints">&lt;TriggerPoint&gt;&lt;ConditionTypeCNF&gt;1&lt;/ConditionTypeCNF&gt;&lt;SPT&gt;&lt;ConditionNegated&gt;0&lt;/ConditionNegated&gt;&lt;Group&gt;0&lt;/Group&gt;&lt;SessionCase&gt;1&lt;/SessionCase&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;ConditionNegated&gt;0&lt;/ConditionNegated&gt;&lt;Group&gt;1&lt;/Group&gt;&lt;Method&gt;INVITE&lt;/Method&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;ConditionNegated&gt;0&lt;/ConditionNegated&gt;&lt;Group&gt;3&lt;/Group&gt;&lt;SessionDescription&gt;&lt;Line&gt;body&lt;/Line&gt;&lt;Content&gt;m=audio&lt;/Content&gt;&lt;/SessionDescription&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;ConditionNegated&gt;1&lt;/ConditionNegated&gt;&lt;Group&gt;4&lt;/Group&gt;&lt;SIPHeader&gt;&lt;Header&gt;Route&lt;/Header&gt;&lt;Content&gt;service=no_nvs_orig_service&lt;/Content&gt;&lt;/SIPHeader&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;ConditionNegated&gt;0&lt;/ConditionNegated&gt;&lt;Group&gt;5&lt;/Group&gt;&lt;SIPHeader&gt;&lt;Header&gt;Content-Type&lt;/Header&gt;&lt;Content&gt;application/sdp&lt;/Content&gt;&lt;/SIPHeader&gt;&lt;/SPT&gt;&lt;/TriggerPoint&gt;</p>
+    </managedObject>
+    <managedObject class="SHARIFCLIST" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/SERVPROFILE-1/SHARIFCLIST-222_50" id="8153689">
+      <p name="applServerAddress">sip:testTasPool@aspool;aspool-param1=5090;TADSType=c-tads</p>
+      <p name="defaultHandling">t</p>
+      <p name="includeRegisterRequest">r</p>
+      <p name="includeRegisterResponse">r</p>
+      <p name="priority">50</p>
+      <p name="serviceInformation">TerminatingINVITEUnregistered</p>
+      <p name="sharediFCID">344</p>
+      <p name="triggerPoints">&lt;TriggerPoint&gt;&lt;ConditionTypeCNF&gt;1&lt;/ConditionTypeCNF&gt;&lt;SPT&gt;&lt;ConditionNegated&gt;0&lt;/ConditionNegated&gt;&lt;Group&gt;0&lt;/Group&gt;&lt;SessionCase&gt;2&lt;/SessionCase&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;ConditionNegated&gt;0&lt;/ConditionNegated&gt;&lt;Group&gt;1&lt;/Group&gt;&lt;Method&gt;INVITE&lt;/Method&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;ConditionNegated&gt;0&lt;/ConditionNegated&gt;&lt;Group&gt;3&lt;/Group&gt;&lt;SessionDescription&gt;&lt;Line&gt;body&lt;/Line&gt;&lt;Content&gt;m=audio&lt;/Content&gt;&lt;/SessionDescription&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;ConditionNegated&gt;1&lt;/ConditionNegated&gt;&lt;Group&gt;4&lt;/Group&gt;&lt;SIPHeader&gt;&lt;Header&gt;Route&lt;/Header&gt;&lt;Content&gt;service=no_nvs_orig_service&lt;/Content&gt;&lt;/SIPHeader&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;ConditionNegated&gt;0&lt;/ConditionNegated&gt;&lt;Group&gt;5&lt;/Group&gt;&lt;SIPHeader&gt;&lt;Header&gt;Content-Type&lt;/Header&gt;&lt;Content&gt;application/sdp&lt;/Content&gt;&lt;/SIPHeader&gt;&lt;/SPT&gt;&lt;/TriggerPoint&gt;</p>
+    </managedObject>
+    <managedObject class="SHARIFCLIST" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/SERVPROFILE-1/SHARIFCLIST-222_60" id="8153687">
+      <p name="applServerAddress">sip:testTasPool@aspool;aspool-param1=5070</p>
+      <p name="defaultHandling">t</p>
+      <p name="includeRegisterRequest">r</p>
+      <p name="includeRegisterResponse">r</p>
+      <p name="priority">3</p>
+      <p name="serviceInformation">SMS</p>
+      <p name="sharediFCID">344</p>
+      <p name="triggerPoints">&lt;TriggerPoint&gt;&lt;ConditionTypeCNF&gt;1&lt;/ConditionTypeCNF&gt;&lt;SPT&gt;&lt;Group&gt;0&lt;/Group&gt;&lt;SessionCase&gt;0&lt;/SessionCase&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;Group&gt;1&lt;/Group&gt;&lt;Method&gt;MESSAGE&lt;/Method&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;Group&gt;2&lt;/Group&gt;&lt;SIPHeader&gt;&lt;Header&gt;Content-Type&lt;/Header&gt;&lt;Content&gt;application/vnd.3gpp.sms&lt;/Content&gt;&lt;/SIPHeader&gt;&lt;/SPT&gt;&lt;/TriggerPoint&gt;</p>
+    </managedObject>
+    <managedObject class="SHARIFCLIST" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/SERVPROFILE-1/SHARIFCLIST-301_20" id="8153675">
+      <p name="applServerAddress">sip:volteaspool@aspool;aspool-param1=5070</p>
+      <p name="defaultHandling">c</p>
+      <p name="includeRegisterRequest">y</p>
+      <p name="includeRegisterResponse">r</p>
+      <p name="priority">2</p>
+      <p name="serviceInformation">Registration</p>
+      <p name="sharediFCID">301</p>
+      <p name="triggerPoints">&lt;TP&gt;&lt;CT&gt;1&lt;/CT&gt;&lt;SPT&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;MTD&gt;REGISTER&lt;/MTD&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;Contact&lt;/ID&gt;&lt;CO&gt;(3gpp-service.ims.icsi.mmtel)&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;2&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;Contact&lt;/ID&gt;&lt;CO&gt;sos&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;/TP&gt;</p>
+    </managedObject>
+    <managedObject class="SHARIFCLIST" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/SERVPROFILE-1/SHARIFCLIST-301_30" id="8153679">
+      <p name="applServerAddress">sip:volteaspool@aspool;aspool-param1=5070</p>
+      <p name="defaultHandling">t</p>
+      <p name="includeRegisterRequest">r</p>
+      <p name="includeRegisterResponse">r</p>
+      <p name="priority">3</p>
+      <p name="serviceInformation">MO_INVITE</p>
+      <p name="sharediFCID">301</p>
+      <p name="triggerPoints">&lt;TP&gt;&lt;CT&gt;0&lt;/CT&gt;&lt;SPT&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;SCE&gt;0&lt;/SCE&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;MTD&gt;INVITE&lt;/MTD&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;Content-Type&lt;/ID&gt;&lt;CO&gt;application/sdp&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;SDN&gt;&lt;LN&gt;body&lt;/LN&gt;&lt;CO&gt;m=(audio|video|image)&lt;/CO&gt;&lt;/SDN&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;Route&lt;/ID&gt;&lt;CO&gt;(service=no_nvs_orig_service)&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;URI&gt;urn:service:sos\.(police|fire|marine)&lt;/URI&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;URI&gt;(sip|tel):%239910|(sip|tel):#9910&lt;/URI&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;Priority&lt;/ID&gt;&lt;CO&gt;emergency&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;SCE&gt;0&lt;/SCE&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;MTD&gt;INVITE&lt;/MTD&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;Content-Type&lt;/ID&gt;&lt;CO&gt;application/sdp&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;SDN&gt;&lt;LN&gt;body&lt;/LN&gt;&lt;CO&gt;m=(audio|video|image)&lt;/CO&gt;&lt;/SDN&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;Route&lt;/ID&gt;&lt;CO&gt;(service=no_nvs_orig_service)&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;URI&gt;urn:service:sos\.(police|fire|marine)&lt;/URI&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;URI&gt;(sip|tel):%23[0-9]{4}&lt;/URI&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;URI&gt;(sip|tel):#[0-9]{4}&lt;/URI&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;Priority&lt;/ID&gt;&lt;CO&gt;emergency&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;/TP&gt;</p>
+    </managedObject>
+    <managedObject class="SHARIFCLIST" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/SERVPROFILE-1/SHARIFCLIST-301_40" id="8153678">
+      <p name="applServerAddress">sip:volteaspool@aspool;aspool-param1=5090;TADSType=c-tads</p>
+      <p name="defaultHandling">t</p>
+      <p name="includeRegisterRequest">r</p>
+      <p name="includeRegisterResponse">r</p>
+      <p name="priority">40</p>
+      <p name="serviceInformation">TerminatingINVITERegistered</p>
+      <p name="sharediFCID">301</p>
+      <p name="triggerPoints">&lt;TriggerPoint&gt;&lt;ConditionTypeCNF&gt;1&lt;/ConditionTypeCNF&gt;&lt;SPT&gt;&lt;ConditionNegated&gt;0&lt;/ConditionNegated&gt;&lt;Group&gt;0&lt;/Group&gt;&lt;SessionCase&gt;1&lt;/SessionCase&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;ConditionNegated&gt;0&lt;/ConditionNegated&gt;&lt;Group&gt;1&lt;/Group&gt;&lt;Method&gt;INVITE&lt;/Method&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;ConditionNegated&gt;0&lt;/ConditionNegated&gt;&lt;Group&gt;3&lt;/Group&gt;&lt;SessionDescription&gt;&lt;Line&gt;body&lt;/Line&gt;&lt;Content&gt;m=audio&lt;/Content&gt;&lt;/SessionDescription&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;ConditionNegated&gt;1&lt;/ConditionNegated&gt;&lt;Group&gt;4&lt;/Group&gt;&lt;SIPHeader&gt;&lt;Header&gt;Route&lt;/Header&gt;&lt;Content&gt;service=no_nvs_orig_service&lt;/Content&gt;&lt;/SIPHeader&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;ConditionNegated&gt;0&lt;/ConditionNegated&gt;&lt;Group&gt;5&lt;/Group&gt;&lt;SIPHeader&gt;&lt;Header&gt;Content-Type&lt;/Header&gt;&lt;Content&gt;application/sdp&lt;/Content&gt;&lt;/SIPHeader&gt;&lt;/SPT&gt;&lt;/TriggerPoint&gt;</p>
+    </managedObject>
+    <managedObject class="SHARIFCLIST" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/SERVPROFILE-1/SHARIFCLIST-301_50" id="8153677">
+      <p name="applServerAddress">sip:volteaspool@aspool;aspool-param1=5090;TADSType=c-tads</p>
+      <p name="defaultHandling">t</p>
+      <p name="includeRegisterRequest">r</p>
+      <p name="includeRegisterResponse">r</p>
+      <p name="priority">50</p>
+      <p name="serviceInformation">TerminatingINVITEUnregistered</p>
+      <p name="sharediFCID">301</p>
+      <p name="triggerPoints">&lt;TriggerPoint&gt;&lt;ConditionTypeCNF&gt;1&lt;/ConditionTypeCNF&gt;&lt;SPT&gt;&lt;ConditionNegated&gt;0&lt;/ConditionNegated&gt;&lt;Group&gt;0&lt;/Group&gt;&lt;SessionCase&gt;2&lt;/SessionCase&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;ConditionNegated&gt;0&lt;/ConditionNegated&gt;&lt;Group&gt;1&lt;/Group&gt;&lt;Method&gt;INVITE&lt;/Method&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;ConditionNegated&gt;0&lt;/ConditionNegated&gt;&lt;Group&gt;3&lt;/Group&gt;&lt;SessionDescription&gt;&lt;Line&gt;body&lt;/Line&gt;&lt;Content&gt;m=audio&lt;/Content&gt;&lt;/SessionDescription&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;ConditionNegated&gt;1&lt;/ConditionNegated&gt;&lt;Group&gt;4&lt;/Group&gt;&lt;SIPHeader&gt;&lt;Header&gt;Route&lt;/Header&gt;&lt;Content&gt;service=no_nvs_orig_service&lt;/Content&gt;&lt;/SIPHeader&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;ConditionNegated&gt;0&lt;/ConditionNegated&gt;&lt;Group&gt;5&lt;/Group&gt;&lt;SIPHeader&gt;&lt;Header&gt;Content-Type&lt;/Header&gt;&lt;Content&gt;application/sdp&lt;/Content&gt;&lt;/SIPHeader&gt;&lt;/SPT&gt;&lt;/TriggerPoint&gt;</p>
+    </managedObject>
+    <managedObject class="SHARIFCLIST" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/SERVPROFILE-1/SHARIFCLIST-301_60" id="8153676">
+      <p name="applServerAddress">sip:volteaspool@aspool;aspool-param1=5070</p>
+      <p name="defaultHandling">t</p>
+      <p name="includeRegisterRequest">r</p>
+      <p name="includeRegisterResponse">r</p>
+      <p name="priority">3</p>
+      <p name="serviceInformation">SMS</p>
+      <p name="sharediFCID">301</p>
+      <p name="triggerPoints">&lt;TriggerPoint&gt;&lt;ConditionTypeCNF&gt;1&lt;/ConditionTypeCNF&gt;&lt;SPT&gt;&lt;Group&gt;0&lt;/Group&gt;&lt;SessionCase&gt;0&lt;/SessionCase&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;Group&gt;1&lt;/Group&gt;&lt;Method&gt;MESSAGE&lt;/Method&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;Group&gt;2&lt;/Group&gt;&lt;SIPHeader&gt;&lt;Header&gt;Content-Type&lt;/Header&gt;&lt;Content&gt;application/vnd.3gpp.sms&lt;/Content&gt;&lt;/SIPHeader&gt;&lt;/SPT&gt;&lt;/TriggerPoint&gt;</p>
+    </managedObject>
+    <managedObject class="FORCEDLIST" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/OPERATORSERV-1/FORCEDLIST-940" id="8153665">
+      <p name="applServerAddress">sip:enum_shcut@localhost;norr;destination=CS;forced-breakout</p>
+      <p name="defaultHandling">1</p>
+      <p name="includeRegisterRequest">r</p>
+      <p name="includeRegisterResponse">r</p>
+      <p name="priority">940</p>
+      <p name="triggerPoints">&lt;TP&gt;&lt;CT&gt;1&lt;/CT&gt;&lt;SPT&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;MTD&gt;INVITE&lt;/MTD&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;SCE&gt;1&lt;/SCE&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;2&lt;/GP&gt;&lt;SCE&gt;2&lt;/SCE&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;3&lt;/GP&gt;&lt;URI&gt;urn:service:sos.*&lt;/URI&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;4&lt;/GP&gt;&lt;URI&gt;^(sip|tel):\+81.*&lt;/URI&gt;&lt;/SPT&gt;&lt;/TP&gt;</p>
+    </managedObject>
+    <managedObject class="FORCEDLIST" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/OPERATORSERV-1/FORCEDLIST-950" id="8153672">
+      <p name="applServerAddress">sip:route@localhost;norr;insertion=$(dsn);forced-breakout</p>
+      <p name="defaultHandling">1</p>
+      <p name="includeRegisterRequest">r</p>
+      <p name="includeRegisterResponse">r</p>
+      <p name="priority">950</p>
+      <p name="triggerPoints">&lt;TP&gt;&lt;CT&gt;1&lt;/CT&gt;&lt;SPT&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;MTD&gt;INVITE&lt;/MTD&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;To&lt;/ID&gt;&lt;CO&gt;urn:service:sos.*&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;2&lt;/GP&gt;&lt;SCE&gt;1&lt;/SCE&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;3&lt;/GP&gt;&lt;SCE&gt;2&lt;/SCE&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;4&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;RequestUri&lt;/ID&gt;&lt;CO&gt;.*sos.rm-n.jp$&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;5&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;To&lt;/ID&gt;&lt;CO&gt;tel:186110.*&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;6&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;To&lt;/ID&gt;&lt;CO&gt;tel:184110.*&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;7&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;To&lt;/ID&gt;&lt;CO&gt;tel:184118.*&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;8&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;To&lt;/ID&gt;&lt;CO&gt;tel:186118.*&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;9&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;To&lt;/ID&gt;&lt;CO&gt;tel:186119.*&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;10&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;To&lt;/ID&gt;&lt;CO&gt;tel:184119.*&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;11&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;To&lt;/ID&gt;&lt;CO&gt;tel:119.*&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;12&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;To&lt;/ID&gt;&lt;CO&gt;tel:118.*&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;13&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;To&lt;/ID&gt;&lt;CO&gt;tel:110.*&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;/TP&gt;</p>
+    </managedObject>
+    <managedObject class="FORCEDLIST" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/OPERATORSERV-1/FORCEDLIST-960" id="8153671">
+      <p name="applServerAddress">sip:uriLRF@localFEE:6088;flexroute;lskpmc=G</p>
+      <p name="defaultHandling">t</p>
+      <p name="includeRegisterRequest">r</p>
+      <p name="includeRegisterResponse">r</p>
+      <p name="priority">960</p>
+      <p name="triggerPoints">&lt;TP&gt;&lt;CT&gt;1&lt;/CT&gt;&lt;SPT&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;MTD&gt;INVITE&lt;/MTD&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;SCE&gt;0&lt;/SCE&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;2&lt;/GP&gt;&lt;URI&gt;urn:service:sos\.(police|fire|marine)&lt;/URI&gt;&lt;/SPT&gt;&lt;/TP&gt;</p>
+    </managedObject>
+    <managedObject class="FORCEDLIST" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/OPERATORSERV-1/FORCEDLIST-970" id="8153669">
+      <p name="applServerAddress">sip:notif@localFEE:6088;flexroute;lskpmc=G</p>
+      <p name="defaultHandling">t</p>
+      <p name="includeRegisterRequest">r</p>
+      <p name="includeRegisterResponse">r</p>
+      <p name="priority">970</p>
+      <p name="triggerPoints">&lt;TP&gt;&lt;CT&gt;1&lt;/CT&gt;&lt;SPT&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;MTD&gt;INVITE&lt;/MTD&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;URI&gt;sos\.rm-n\.jp$&lt;/URI&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;2&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;Max-Forwards&lt;/ID&gt;&lt;CO&gt;65&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;/TP&gt;</p>
+    </managedObject>
+    <managedObject class="FORCEDLIST" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/OPERATORSERV-1/FORCEDLIST-980" id="8153668">
+      <p name="applServerAddress">sip:redirectLRF@localFEE:6088;flexroute;lskpmc=G</p>
+      <p name="defaultHandling">t</p>
+      <p name="includeRegisterRequest">r</p>
+      <p name="includeRegisterResponse">r</p>
+      <p name="priority">980</p>
+      <p name="triggerPoints">&lt;TP&gt;&lt;CT&gt;1&lt;/CT&gt;&lt;SPT&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;MTD&gt;INVITE&lt;/MTD&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;URI&gt;sos\.rm-n\.jp$&lt;/URI&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;2&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;Max-Forwards&lt;/ID&gt;&lt;CO&gt;65&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;/TP&gt;</p>
+    </managedObject>
+    <managedObject class="FORCEDLIST" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/OPERATORSERV-1/FORCEDLIST-981" id="8153670">
+      <p name="applServerAddress">sip:route@localhost;norr;insertion=$(dsn);forced-breakout</p>
+      <p name="defaultHandling">1</p>
+      <p name="includeRegisterRequest">r</p>
+      <p name="includeRegisterResponse">r</p>
+      <p name="priority">981</p>
+      <p name="triggerPoints">&lt;TP&gt;&lt;CT&gt;1&lt;/CT&gt;&lt;SPT&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;MTD&gt;INVITE&lt;/MTD&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;SCE&gt;0&lt;/SCE&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;2&lt;/GP&gt;&lt;URI&gt;(sip|tel):(0|\+81)(9|8|7)0.*&lt;/URI&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;3&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;To&lt;/ID&gt;&lt;CO&gt;.*sos.*&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;3&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;To&lt;/ID&gt;&lt;CO&gt;(sip|tel):(184|186)11(0|8|9).*&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;/TP&gt;</p>
+    </managedObject>
+    <managedObject class="FORCEDLIST" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/OPERATORSERV-1/FORCEDLIST-997" id="8153666">
+      <p name="applServerAddress">sip:enum_shcut@localhost;norr;destination=CS</p>
+      <p name="defaultHandling">t</p>
+      <p name="includeRegisterRequest">r</p>
+      <p name="includeRegisterResponse">r</p>
+      <p name="priority">997</p>
+      <p name="triggerPoints">&lt;TP&gt;&lt;CT&gt;1&lt;/CT&gt;&lt;SPT&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;MTD&gt;INVITE&lt;/MTD&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;URI&gt;sos\.rm-n\.jp$&lt;/URI&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;2&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;P-NokiaSiemens.ePriority&lt;/ID&gt;&lt;CO&gt;emergency&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;3&lt;/GP&gt;&lt;HDR&gt;&lt;ID&gt;Priority&lt;/ID&gt;&lt;CO&gt;emergency&lt;/CO&gt;&lt;/HDR&gt;&lt;/SPT&gt;&lt;/TP&gt;</p>
+    </managedObject>
+    <managedObject class="FORCEDLIST" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/OPERATORSERV-1/FORCEDLIST-998" id="8153667">
+      <p name="applServerAddress">sip:enum_shcut@localhost;norr;destination=CS</p>
+      <p name="defaultHandling">1</p>
+      <p name="includeRegisterRequest">r</p>
+      <p name="includeRegisterResponse">r</p>
+      <p name="priority">998</p>
+      <p name="triggerPoints">&lt;TP&gt;&lt;CT&gt;1&lt;/CT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;SCE&gt;1&lt;/SCE&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;SCE&gt;2&lt;/SCE&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;2&lt;/GP&gt;&lt;URI&gt;^(tel|sip):00.*&lt;/URI&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;2&lt;/GP&gt;&lt;URI&gt;^(tel|sip):1.*&lt;/URI&gt;&lt;/SPT&gt;&lt;/TP&gt;</p>
+    </managedObject>
+    <managedObject class="INLIST" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/SCSCF-1/OPERATORSERV-1/INLIST-960" id="8153673">
+      <p name="applServerAddress">sip:uriLRF@localFEE:6088;flexroute;lskpmc=G</p>
+      <p name="defaultHandling">t</p>
+      <p name="includeRegisterRequest">r</p>
+      <p name="includeRegisterResponse">r</p>
+      <p name="priority">960</p>
+      <p name="triggerPoints">&lt;TP&gt;&lt;CT&gt;1&lt;/CT&gt;&lt;SPT&gt;&lt;GP&gt;0&lt;/GP&gt;&lt;MTD&gt;INVITE&lt;/MTD&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;1&lt;/GP&gt;&lt;SCE&gt;0&lt;/SCE&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;2&lt;/GP&gt;&lt;URI&gt;(sip|tel):%23[0-9]{4}&lt;/URI&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;GP&gt;2&lt;/GP&gt;&lt;URI&gt;(sip|tel):#[0-9]{4}&lt;/URI&gt;&lt;/SPT&gt;&lt;SPT&gt;&lt;CN&gt;1&lt;/CN&gt;&lt;GP&gt;3&lt;/GP&gt;&lt;URI&gt;(sip|tel):%239910|(sip|tel):#9910&lt;/URI&gt;&lt;/SPT&gt;&lt;/TP&gt;</p>
+    </managedObject>
+    <managedObject class="IPDPTPD" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/COMMON-1/IMSLB-1/SYSTEMIMSLB-1/IPDPTPD-Bc" id="8153697">
+      <p name="allowExpiredTlsCertificate">0</p>
+      <p name="dispatcherType">Bc</p>
+      <p name="markExistingTrafficIPDP">0</p>
+      <p name="npPingTmr">0</p>
+      <p name="outgoingDSCP">0</p>
+      <p name="zaPingTmr">0</p>
+    </managedObject>
+    <managedObject class="IPDPTPD" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/COMMON-1/IMSLB-1/SYSTEMIMSLB-1/IPDPTPD-Bgcf" id="8153696">
+      <p name="allowExpiredTlsCertificate">0</p>
+      <p name="dispatcherType">Bgcf</p>
+      <p name="markExistingTrafficIPDP">0</p>
+      <p name="npPingTmr">0</p>
+      <p name="outgoingDSCP">0</p>
+      <p name="zaPingTmr">0</p>
+    </managedObject>
+    <managedObject class="IPDPTPD" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/COMMON-1/IMSLB-1/SYSTEMIMSLB-1/IPDPTPD-Dns" id="8153694">
+      <p name="allowExpiredTlsCertificate">0</p>
+      <p name="dispatcherType">Dns</p>
+      <p name="markExistingTrafficIPDP">0</p>
+      <p name="npPingTmr">0</p>
+      <p name="outgoingDSCP">0</p>
+      <p name="zaPingTmr">0</p>
+    </managedObject>
+    <managedObject class="IPDPTPD" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/COMMON-1/IMSLB-1/SYSTEMIMSLB-1/IPDPTPD-Fee" id="8153692">
+      <p name="allowExpiredTlsCertificate">0</p>
+      <p name="dispatcherType">Fee</p>
+      <p name="markExistingTrafficIPDP">0</p>
+      <p name="npPingTmr">0</p>
+      <p name="outgoingDSCP">0</p>
+      <p name="zaPingTmr">0</p>
+    </managedObject>
+    <managedObject class="IPDPTPD" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/COMMON-1/IMSLB-1/SYSTEMIMSLB-1/IPDPTPD-Icscf" id="8153695">
+      <p name="allowExpiredTlsCertificate">0</p>
+      <p name="dispatcherType">Icscf</p>
+      <p name="markExistingTrafficIPDP">0</p>
+      <p name="npPingTmr">0</p>
+      <p name="outgoingDSCP">0</p>
+      <p name="zaPingTmr">0</p>
+    </managedObject>
+    <managedObject class="IPDPTPD" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/COMMON-1/IMSLB-1/SYSTEMIMSLB-1/IPDPTPD-Rtta" id="8153698">
+      <p name="allowExpiredTlsCertificate">0</p>
+      <p name="dispatcherType">Rtta</p>
+      <p name="markExistingTrafficIPDP">0</p>
+      <p name="npPingTmr">0</p>
+      <p name="outgoingDSCP">0</p>
+      <p name="zaPingTmr">0</p>
+    </managedObject>
+    <managedObject class="IPDPTPD" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/COMMON-1/IMSLB-1/SYSTEMIMSLB-1/IPDPTPD-ScscfIsc" id="8153691">
+      <p name="allowExpiredTlsCertificate">0</p>
+      <p name="dispatcherType">ScscfIsc</p>
+      <p name="markExistingTrafficIPDP">0</p>
+      <p name="npPingTmr">0</p>
+      <p name="outgoingDSCP">0</p>
+      <p name="zaPingTmr">0</p>
+    </managedObject>
+    <managedObject class="IPDPTPD" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/COMMON-1/IMSLB-1/SYSTEMIMSLB-1/IPDPTPD-ScscfMw" id="8153693">
+      <p name="allowExpiredTlsCertificate">0</p>
+      <p name="dispatcherType">ScscfMw</p>
+      <p name="markExistingTrafficIPDP">0</p>
+      <p name="npPingTmr">0</p>
+      <p name="outgoingDSCP">0</p>
+      <p name="zaPingTmr">0</p>
+    </managedObject>
+    <managedObject class="PEER" version="19.01" distName="PLMN-PLMN/IMSNFM-SANDA-2/DU-UHN3SNI2CFX1_DU_uhn3sni2cf01/CSCFCOMMON-1/FEE-1/EASIP-1/DIAMETER-1/PEER-1" id="8153699">
+      <p name="primaryHost">dra-lb01-uhn3sni2cd01.epc.mnc011.mcc440.3gppnetwork.org</p>
+      <p name="primaryPort">3868</p>
+      <p name="secondaryHost">dra-lb01-uhn3sni1cd01.epc.mnc011.mcc440.3gppnetwork.org</p>
+      <p name="secondaryPort">3868</p>
+      <p name="tertiaryHost">dra-lb01-uhn3tti2cd01.epc.mnc011.mcc440.3gppnetwork.org</p>
+      <p name="tertiaryPort">3868</p>
+    </managedObject>
+  </cmData>
+</raml>
