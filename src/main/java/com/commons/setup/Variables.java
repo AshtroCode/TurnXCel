@@ -1,4 +1,4 @@
-package java.SetupExecutor;
+package com.commons.setup;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

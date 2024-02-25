@@ -1,5 +1,7 @@
 package com.spring.turnxcel.controller;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -17,6 +19,8 @@ import java.util.Map;
 
 @Controller
 public class FileController {
+
+    private static final Logger logger = LoggerFactory.getLogger(FileController.class);
 
     @Autowired
     private XmlParserLTE xmlParserLTE;
@@ -37,6 +41,7 @@ public class FileController {
                     .header("Content-Disposition", "attachment; filename=converted.xlsx")
                     .body(outputStream.toByteArray());
         } catch (Exception e) {
+            logger.error("Failed to process file: {}", e.getMessage());
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
                     .body("Failed to process file: " + e.getMessage());
         }
@@ -46,7 +51,7 @@ public class FileController {
     public ResponseEntity<byte[]> downloadExcelFile(@RequestParam("file") byte[] excelBytes) {
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_OCTET_STREAM);
-        headers.setContentDispositionFormData("attachment", "XmlToExcel.xlsx");
+        headers.setContentDispositionFormData("attachment", "converted.xlsx");
         headers.setContentLength(excelBytes.length);
 
         return new ResponseEntity<>(excelBytes, headers, HttpStatus.OK);
