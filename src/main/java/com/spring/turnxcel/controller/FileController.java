@@ -46,7 +46,7 @@ public class FileController {
     public ResponseEntity<byte[]> downloadExcelFile(@RequestParam("file") byte[] excelBytes) {
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_OCTET_STREAM);
-        headers.setContentDispositionFormData("attachment", "converted.xlsx");
+        headers.setContentDispositionFormData("attachment", "XmlToExcel.xlsx");
         headers.setContentLength(excelBytes.length);
 
         return new ResponseEntity<>(excelBytes, headers, HttpStatus.OK);
