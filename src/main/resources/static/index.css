@@ -149,10 +149,9 @@
   justify-content: center;
 }
 .home-hero-button2 {
-  top: -5px;
-  left: -72px;
-  width: 163px;
-  height: 36px;
+  left: -70px;
+  height: inherit;
+  width: max-content;
   margin: auto;
   position: absolute;
   text-align: center;
@@ -163,13 +162,17 @@
   background-color: #07ffe7;
 }
 .home-hero-button1 {
-  left: -94px;
+  left: -105px;
+  right: 0px;
+  height: inherit;
   width: 210px;
   bottom: -76px;
+  margin: auto;
   position: absolute;
+  text-align: center;
 }
 .home-text {
-  top: 203px;
+  top: 210px;
   left: 0px;
   right: 0px;
   margin: auto;
@@ -177,7 +180,7 @@
   text-align: center;
 }
 .home-text1 {
-  left: 700px;
+  left: 690px;
   top: 320px;
   margin: auto;
   position: absolute;

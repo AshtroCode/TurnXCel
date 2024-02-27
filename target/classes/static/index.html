@@ -586,10 +586,13 @@
               <h1 class="home-hero-heading1">Convert any XML file to Excel</h1>
             </div>
             <div class="home-container2">
-              <button class="home-hero-button2 buttonFlat">Browse File</button>
-              <button class="home-hero-button1 buttonFilled">
-                Convert to Excel
-              </button>
+              <form action="/upload" method="post" enctype="multipart/form-data">
+                <label for="file-upload" class="home-hero-button2 buttonFlat">Browse File</label>
+                <input id="file-upload" type="file" name="file" accept=".xml" style="display: none;">
+                <button class="home-hero-button1 buttonFilled">
+                  Convert to Excel
+                </button>
+              </form>
             </div>
             <span class="home-text bodySmall">Upload .xml file only</span>
             <span class="home-text1 bodySmall">You'll get a .xlsx file</span>
