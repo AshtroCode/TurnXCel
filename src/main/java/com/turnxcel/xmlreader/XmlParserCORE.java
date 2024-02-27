@@ -60,7 +60,7 @@ public class XmlParserCORE {
                 }
                 String parameterId = buildId(element, currentPath);
                 String paramName = getParamName(element, currentPath);
-                if(parameterId.startsWith("&")) {
+                if(parameterId.startsWith(" << ")) {
                 	parameterId = parameterId.substring(1);
                 }
                 Variables.XMLDataMap.put(String.valueOf(numericKey++), paramName+";"+parameterValue + ";" + parameterId);
@@ -86,7 +86,7 @@ public class XmlParserCORE {
         if (idAttribute.isEmpty()) {
             return currentPath;
         }
-        return currentPath + "&" + getLocalName(element.getTagName()) + " id=" + idAttribute;
+        return currentPath + " << " + getLocalName(element.getTagName()) + " id=" + idAttribute;
     }
 
     protected static String getLocalName(String qName) {

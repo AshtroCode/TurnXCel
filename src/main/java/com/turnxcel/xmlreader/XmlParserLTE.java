@@ -44,7 +44,7 @@ public class XmlParserLTE {
                 String parameterValue = node.getTextContent().trim();
                 String parameterXPath = buildXPath(element);
                 String parameterId = buildId(element, currentPath);
-                if (parameterId.startsWith("&")) {
+                if (parameterId.startsWith(" << ")) {
                     parameterId = parameterId.substring(1);
                 }
                 xmlDataMap.put(String.valueOf(numericKey++), parameterXPath + ";" + parameterValue + ";" + parameterId);
@@ -61,7 +61,7 @@ public class XmlParserLTE {
         if (idAttribute.isEmpty()) {
             return currentPath;
         }
-        return currentPath + "&" + getLocalName(element.getTagName()) + " id=" + idAttribute;
+        return currentPath + " << " + getLocalName(element.getTagName()) + " id=" + idAttribute;
     }
 
     private String buildXPath(Element element) {
