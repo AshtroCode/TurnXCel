@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: Ping Service
         run: |
-          curl -X GET "https://turnxcel.onrender.com/upload/health"
+          curl -X GET "https://turnxcel.onrender.com/health"
