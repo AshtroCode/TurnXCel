@@ -15,6 +15,8 @@ import com.turnxcel.converter.ConfigXmlToExcel;
 import com.turnxcel.xmlreader.XmlParserLTE;
 
 import java.io.ByteArrayOutputStream;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Map;
 
 @Controller
@@ -55,5 +57,14 @@ public class FileController {
         headers.setContentLength(excelBytes.length);
 
         return new ResponseEntity<>(excelBytes, headers, HttpStatus.OK);
+    }
+    @GetMapping("/health") // Add this endpoint
+    public ResponseEntity<String> healthCheck() {
+        SimpleDateFormat sdfDate = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//dd/MM/yyyy
+        Date now = new Date();
+        String strDate = sdfDate.format(now);
+        System.out.println("*********************************");
+        System.out.println("Health OK | Time: "+ strDate);
+        return ResponseEntity.ok("OK");
     }
 }
